@@ -1,0 +1,512 @@
+{
+ "updated": "Nov 13, 2026",
+ "source": "DA Price Monitoring (NCR)",
+ "currency": "PHP",
+ "report": "https://www.da.gov.ph/wp-content/uploads/2026/11/November-13-2026-DPI-AFC.pdf",
+ "items": [
+  {
+   "id": "chicken",
+   "name": "Manok",
+   "english": "Chicken",
+   "section": "meat",
+   "unit": "kg",
+   "price": 203
+  },
+  {
+   "id": "chicken_breast",
+   "name": "Pechu ng manok",
+   "english": "Chicken breast",
+   "section": "meat",
+   "unit": "kg",
+   "price": 219
+  },
+  {
+   "id": "chicken_wings",
+   "name": "Pakpak ng manok",
+   "english": "Chicken wings",
+   "section": "meat",
+   "unit": "kg",
+   "price": 222
+  },
+  {
+   "id": "chicken_liver",
+   "name": "Atay ng manok",
+   "english": "Chicken liver",
+   "section": "meat",
+   "unit": "kg",
+   "price": 233
+  },
+  {
+   "id": "pork_kasim",
+   "name": "Baboy (kasim)",
+   "english": "Pork shoulder",
+   "section": "meat",
+   "unit": "kg",
+   "price": 311
+  },
+  {
+   "id": "pork_liempo",
+   "name": "Liempo",
+   "english": "Pork belly",
+   "section": "meat",
+   "unit": "kg",
+   "price": 368
+  },
+  {
+   "id": "lechon_belly",
+   "name": "Liempo na buo (pang-lechon)",
+   "english": "Whole pork belly slab",
+   "section": "meat",
+   "unit": "kg",
+   "price": 368
+  },
+  {
+   "id": "pork_ribs",
+   "name": "Buto-buto ng baboy",
+   "english": "Pork spareribs",
+   "section": "meat",
+   "unit": "kg",
+   "price": 303
+  },
+  {
+   "id": "pork_chop",
+   "name": "Pork chop",
+   "english": "Pork chop",
+   "section": "meat",
+   "unit": "kg",
+   "price": 311
+  },
+  {
+   "id": "pork_pata",
+   "name": "Pata ng baboy",
+   "english": "Pork hock",
+   "section": "meat",
+   "unit": "kg",
+   "price": 280
+  },
+  {
+   "id": "pork_liver",
+   "name": "Atay ng baboy",
+   "english": "Pork liver",
+   "section": "meat",
+   "unit": "kg",
+   "price": 253
+  },
+  {
+   "id": "pork_maskara",
+   "name": "Maskara at tenga ng baboy",
+   "english": "Pork face and ears",
+   "section": "meat",
+   "unit": "kg",
+   "price": 261
+  },
+  {
+   "id": "pork_innards",
+   "name": "Lamang-loob ng baboy",
+   "english": "Pork innards",
+   "section": "meat",
+   "unit": "kg",
+   "price": 185
+  },
+  {
+   "id": "beef_sirloin",
+   "name": "Baka (sirloin)",
+   "english": "Beef sirloin",
+   "section": "meat",
+   "unit": "kg",
+   "price": 504
+  },
+  {
+   "id": "beef_brisket",
+   "name": "Punta y pecho (baka)",
+   "english": "Beef brisket",
+   "section": "meat",
+   "unit": "kg",
+   "price": 447
+  },
+  {
+   "id": "beef_ribs",
+   "name": "Tadyang ng baka",
+   "english": "Beef short ribs",
+   "section": "meat",
+   "unit": "kg",
+   "price": 425
+  },
+  {
+   "id": "beef_tripe",
+   "name": "Tuwalya ng baka",
+   "english": "Beef tripe",
+   "section": "meat",
+   "unit": "kg",
+   "price": 297
+  },
+  {
+   "id": "galunggong",
+   "name": "Galunggong",
+   "english": "Round scad",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 306
+  },
+  {
+   "id": "bangus",
+   "name": "Bangus",
+   "english": "Milkfish",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 244
+  },
+  {
+   "id": "tilapia",
+   "name": "Tilapia",
+   "english": "Tilapia",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 157
+  },
+  {
+   "id": "tuna",
+   "name": "Tuna (sariwa)",
+   "english": "Fresh tuna",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 288
+  },
+  {
+   "id": "pusit",
+   "name": "Pusit",
+   "english": "Squid",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 497
+  },
+  {
+   "id": "shrimp",
+   "name": "Hipon",
+   "english": "Shrimp",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 483
+  },
+  {
+   "id": "tamban",
+   "name": "Tamban",
+   "english": "Sardinella",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 230
+  },
+  {
+   "id": "cream_dory",
+   "name": "Cream dory fillet",
+   "english": "Fish fillet (cream dory/basa)",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 154
+  },
+  {
+   "id": "squash",
+   "name": "Kalabasa",
+   "english": "Squash",
+   "section": "produce",
+   "unit": "kg",
+   "price": 61
+  },
+  {
+   "id": "ampalaya",
+   "name": "Ampalaya",
+   "english": "Bitter gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 25
+  },
+  {
+   "id": "upo",
+   "name": "Upo",
+   "english": "Bottle gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 43
+  },
+  {
+   "id": "siling_haba",
+   "name": "Siling haba",
+   "english": "Long green chili",
+   "section": "produce",
+   "unit": "pc",
+   "price": 2.0
+  },
+  {
+   "id": "eggplant",
+   "name": "Talong",
+   "english": "Eggplant",
+   "section": "produce",
+   "unit": "pc",
+   "price": 16
+  },
+  {
+   "id": "pechay",
+   "name": "Pechay",
+   "english": "Bok choy",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 25
+  },
+  {
+   "id": "okra",
+   "name": "Okra",
+   "english": "Okra",
+   "section": "produce",
+   "unit": "pc",
+   "price": 3.0
+  },
+  {
+   "id": "sitaw",
+   "name": "Sitaw",
+   "english": "String beans",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 32
+  },
+  {
+   "id": "patola",
+   "name": "Patola",
+   "english": "Sponge gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 29
+  },
+  {
+   "id": "tomato",
+   "name": "Kamatis",
+   "english": "Tomato",
+   "section": "produce",
+   "unit": "pc",
+   "price": 7.5
+  },
+  {
+   "id": "cabbage",
+   "name": "Repolyo",
+   "english": "Cabbage",
+   "section": "produce",
+   "unit": "kg",
+   "price": 148
+  },
+  {
+   "id": "carrot",
+   "name": "Karot",
+   "english": "Carrot",
+   "section": "produce",
+   "unit": "kg",
+   "price": 153
+  },
+  {
+   "id": "broccoli",
+   "name": "Broccoli",
+   "english": "Broccoli",
+   "section": "produce",
+   "unit": "kg",
+   "price": 240
+  },
+  {
+   "id": "cauliflower",
+   "name": "Cauliflower",
+   "english": "Cauliflower",
+   "section": "produce",
+   "unit": "kg",
+   "price": 281
+  },
+  {
+   "id": "sayote",
+   "name": "Sayote",
+   "english": "Chayote",
+   "section": "produce",
+   "unit": "pc",
+   "price": 18
+  },
+  {
+   "id": "cucumber",
+   "name": "Pipino",
+   "english": "Cucumber",
+   "section": "produce",
+   "unit": "pc",
+   "price": 25
+  },
+  {
+   "id": "baguio_beans",
+   "name": "Baguio beans",
+   "english": "Green beans",
+   "section": "produce",
+   "unit": "kg",
+   "price": 121
+  },
+  {
+   "id": "lettuce",
+   "name": "Letsugas",
+   "english": "Lettuce",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 38
+  },
+  {
+   "id": "radish",
+   "name": "Labanos",
+   "english": "Radish",
+   "section": "produce",
+   "unit": "pc",
+   "price": 34
+  },
+  {
+   "id": "potato",
+   "name": "Patatas",
+   "english": "Potato",
+   "section": "produce",
+   "unit": "kg",
+   "price": 170
+  },
+  {
+   "id": "bell_pepper",
+   "name": "Bell pepper",
+   "english": "Bell pepper",
+   "section": "produce",
+   "unit": "pc",
+   "price": 46
+  },
+  {
+   "id": "garlic",
+   "name": "Bawang",
+   "english": "Garlic",
+   "section": "produce",
+   "unit": "head",
+   "price": 6.0
+  },
+  {
+   "id": "ginger",
+   "name": "Luya",
+   "english": "Ginger",
+   "section": "produce",
+   "unit": "pc",
+   "price": 6.0
+  },
+  {
+   "id": "onion",
+   "name": "Sibuyas",
+   "english": "Onion",
+   "section": "produce",
+   "unit": "pc",
+   "price": 9.0
+  },
+  {
+   "id": "calamansi",
+   "name": "Kalamansi",
+   "english": "Calamansi",
+   "section": "produce",
+   "unit": "pc",
+   "price": 1.75
+  },
+  {
+   "id": "saba",
+   "name": "Saging na saba",
+   "english": "Saba banana",
+   "section": "produce",
+   "unit": "pc",
+   "price": 8.0
+  },
+  {
+   "id": "orange",
+   "name": "Dalandan / orange",
+   "english": "Orange",
+   "section": "produce",
+   "unit": "pc",
+   "price": 29
+  },
+  {
+   "id": "lemon",
+   "name": "Lemon",
+   "english": "Lemon",
+   "section": "produce",
+   "unit": "pc",
+   "price": 19
+  },
+  {
+   "id": "kamote",
+   "name": "Kamote",
+   "english": "Sweet potato",
+   "section": "produce",
+   "unit": "kg",
+   "price": 93
+  },
+  {
+   "id": "rice",
+   "name": "Bigas",
+   "english": "Rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 49
+  },
+  {
+   "id": "glutinous_rice",
+   "name": "Malagkit",
+   "english": "Glutinous rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 79
+  },
+  {
+   "id": "basmati",
+   "name": "Basmati rice",
+   "english": "Basmati rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 194
+  },
+  {
+   "id": "monggo",
+   "name": "Munggo",
+   "english": "Mung beans",
+   "section": "produce",
+   "unit": "kg",
+   "price": 147
+  },
+  {
+   "id": "egg",
+   "name": "Itlog",
+   "english": "Egg",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 8.25
+  },
+  {
+   "id": "sugar",
+   "name": "Asukal",
+   "english": "Sugar",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.082
+  },
+  {
+   "id": "brown_sugar",
+   "name": "Asukal na pula",
+   "english": "Brown sugar",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.072
+  },
+  {
+   "id": "salt",
+   "name": "Asin",
+   "english": "Salt",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.044
+  },
+  {
+   "id": "cooking_oil",
+   "name": "Mantika",
+   "english": "Cooking oil",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.103
+  }
+ ]
+}

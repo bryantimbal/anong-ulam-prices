@@ -1,0 +1,2950 @@
+{
+ "updated": "Nob 2026 (tantiya)",
+ "source": "Tantiyang presyo sa NCR palengke",
+ "currency": "PHP",
+ "items": [
+  {
+   "id": "chicken",
+   "name": "Manok",
+   "english": "Chicken",
+   "section": "meat",
+   "unit": "kg",
+   "price": 210,
+   "aliases": [
+    "manok",
+    "chicken",
+    "hita",
+    "pakpak"
+   ]
+  },
+  {
+   "id": "pork_kasim",
+   "name": "Baboy (kasim)",
+   "english": "Pork shoulder",
+   "section": "meat",
+   "unit": "kg",
+   "price": 340,
+   "aliases": [
+    "kasim",
+    "baboy",
+    "pork"
+   ]
+  },
+  {
+   "id": "pork_liempo",
+   "name": "Liempo",
+   "english": "Pork belly",
+   "section": "meat",
+   "unit": "kg",
+   "price": 380,
+   "aliases": [
+    "liempo",
+    "pork belly",
+    "baboy"
+   ]
+  },
+  {
+   "id": "pork_ribs",
+   "name": "Buto-buto ng baboy",
+   "english": "Pork spareribs",
+   "section": "meat",
+   "unit": "kg",
+   "price": 330,
+   "aliases": [
+    "buto-buto",
+    "ribs",
+    "spareribs",
+    "baboy"
+   ]
+  },
+  {
+   "id": "beef_sirloin",
+   "name": "Baka (sirloin)",
+   "english": "Beef sirloin",
+   "section": "meat",
+   "unit": "kg",
+   "price": 480,
+   "aliases": [
+    "baka",
+    "beef"
+   ]
+  },
+  {
+   "id": "galunggong",
+   "name": "Galunggong",
+   "english": "Round scad",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 240,
+   "aliases": [
+    "gg",
+    "isda",
+    "fish"
+   ]
+  },
+  {
+   "id": "shrimp",
+   "name": "Hipon",
+   "english": "Shrimp",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 480,
+   "aliases": [
+    "hipon",
+    "shrimp"
+   ]
+  },
+  {
+   "id": "garlic",
+   "name": "Bawang",
+   "english": "Garlic",
+   "section": "produce",
+   "unit": "head",
+   "price": 10,
+   "aliases": [
+    "bawang",
+    "garlic"
+   ]
+  },
+  {
+   "id": "onion",
+   "name": "Sibuyas",
+   "english": "Onion",
+   "section": "produce",
+   "unit": "pc",
+   "price": 12,
+   "aliases": [
+    "sibuyas",
+    "onion"
+   ]
+  },
+  {
+   "id": "tomato",
+   "name": "Kamatis",
+   "english": "Tomato",
+   "section": "produce",
+   "unit": "pc",
+   "price": 6,
+   "aliases": [
+    "kamatis",
+    "tomato"
+   ]
+  },
+  {
+   "id": "ginger",
+   "name": "Luya",
+   "english": "Ginger",
+   "section": "produce",
+   "unit": "pc",
+   "price": 6,
+   "aliases": [
+    "luya",
+    "ginger"
+   ]
+  },
+  {
+   "id": "eggplant",
+   "name": "Talong",
+   "english": "Eggplant",
+   "section": "produce",
+   "unit": "pc",
+   "price": 15,
+   "aliases": [
+    "talong",
+    "eggplant"
+   ]
+  },
+  {
+   "id": "okra",
+   "name": "Okra",
+   "english": "Okra",
+   "section": "produce",
+   "unit": "pc",
+   "price": 3,
+   "aliases": [
+    "okra"
+   ]
+  },
+  {
+   "id": "ampalaya",
+   "name": "Ampalaya",
+   "english": "Bitter gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 30,
+   "aliases": [
+    "ampalaya",
+    "bitter gourd",
+    "amplaya"
+   ]
+  },
+  {
+   "id": "squash",
+   "name": "Kalabasa",
+   "english": "Squash",
+   "section": "produce",
+   "unit": "kg",
+   "price": 60,
+   "aliases": [
+    "kalabasa",
+    "squash"
+   ]
+  },
+  {
+   "id": "sitaw",
+   "name": "Sitaw",
+   "english": "String beans",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 25,
+   "aliases": [
+    "sitaw",
+    "string beans"
+   ]
+  },
+  {
+   "id": "kangkong",
+   "name": "Kangkong",
+   "english": "Water spinach",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 20,
+   "aliases": [
+    "kangkong"
+   ]
+  },
+  {
+   "id": "radish",
+   "name": "Labanos",
+   "english": "Radish",
+   "section": "produce",
+   "unit": "pc",
+   "price": 25,
+   "aliases": [
+    "labanos",
+    "radish"
+   ]
+  },
+  {
+   "id": "sayote",
+   "name": "Sayote",
+   "english": "Chayote",
+   "section": "produce",
+   "unit": "pc",
+   "price": 18,
+   "aliases": [
+    "sayote",
+    "chayote",
+    "papaya"
+   ]
+  },
+  {
+   "id": "malunggay",
+   "name": "Malunggay",
+   "english": "Moringa leaves",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 15,
+   "aliases": [
+    "malunggay",
+    "moringa"
+   ]
+  },
+  {
+   "id": "siling_haba",
+   "name": "Siling haba",
+   "english": "Long green chili",
+   "section": "produce",
+   "unit": "pc",
+   "price": 3,
+   "aliases": [
+    "sili",
+    "siling pangsigang",
+    "chili"
+   ]
+  },
+  {
+   "id": "potato",
+   "name": "Patatas",
+   "english": "Potato",
+   "section": "produce",
+   "unit": "kg",
+   "price": 90,
+   "aliases": [
+    "patatas",
+    "potato"
+   ]
+  },
+  {
+   "id": "carrot",
+   "name": "Karot",
+   "english": "Carrot",
+   "section": "produce",
+   "unit": "kg",
+   "price": 100,
+   "aliases": [
+    "karot",
+    "carrot"
+   ]
+  },
+  {
+   "id": "bell_pepper",
+   "name": "Bell pepper",
+   "english": "Bell pepper",
+   "section": "produce",
+   "unit": "pc",
+   "price": 20,
+   "aliases": [
+    "bell pepper",
+    "siling pula"
+   ]
+  },
+  {
+   "id": "monggo",
+   "name": "Munggo",
+   "english": "Mung beans",
+   "section": "produce",
+   "unit": "kg",
+   "price": 140,
+   "aliases": [
+    "monggo",
+    "munggo",
+    "mung beans"
+   ]
+  },
+  {
+   "id": "calamansi",
+   "name": "Kalamansi",
+   "english": "Calamansi",
+   "section": "produce",
+   "unit": "pc",
+   "price": 2.5,
+   "aliases": [
+    "kalamansi",
+    "calamansi"
+   ]
+  },
+  {
+   "id": "egg",
+   "name": "Itlog",
+   "english": "Egg",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 9,
+   "aliases": [
+    "itlog",
+    "egg"
+   ]
+  },
+  {
+   "id": "bay_leaf",
+   "name": "Dahon ng laurel",
+   "english": "Bay leaves",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 10,
+   "aliases": [
+    "laurel",
+    "bay leaf"
+   ]
+  },
+  {
+   "id": "sinigang_mix",
+   "name": "Sinigang mix",
+   "english": "Tamarind soup mix",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "sampalok",
+    "sinigang mix",
+    "tamarind"
+   ]
+  },
+  {
+   "id": "tomato_sauce",
+   "name": "Tomato sauce (200 g)",
+   "english": "Tomato sauce",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "tomato sauce"
+   ]
+  },
+  {
+   "id": "coconut_milk",
+   "name": "Gata (250 ml)",
+   "english": "Coconut milk",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 38,
+   "aliases": [
+    "gata",
+    "coconut milk"
+   ]
+  },
+  {
+   "id": "liver_spread",
+   "name": "Liver spread",
+   "english": "Liver spread",
+   "section": "pantry",
+   "unit": "can",
+   "price": 35,
+   "aliases": [
+    "liver spread",
+    "reno",
+    "atay"
+   ]
+  },
+  {
+   "id": "bagoong",
+   "name": "Bagoong alamang",
+   "english": "Shrimp paste",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.24,
+   "aliases": [
+    "bagoong",
+    "alamang",
+    "shrimp paste"
+   ]
+  },
+  {
+   "id": "soy_sauce",
+   "name": "Toyo",
+   "english": "Soy sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.09,
+   "staple": true,
+   "aliases": [
+    "toyo",
+    "soy sauce"
+   ]
+  },
+  {
+   "id": "vinegar",
+   "name": "Suka",
+   "english": "Vinegar",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.06,
+   "staple": true,
+   "aliases": [
+    "suka",
+    "vinegar"
+   ]
+  },
+  {
+   "id": "fish_sauce",
+   "name": "Patis",
+   "english": "Fish sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.1,
+   "staple": true,
+   "aliases": [
+    "patis",
+    "fish sauce"
+   ]
+  },
+  {
+   "id": "cooking_oil",
+   "name": "Mantika",
+   "english": "Cooking oil",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.11,
+   "staple": true,
+   "aliases": [
+    "mantika",
+    "oil"
+   ]
+  },
+  {
+   "id": "peppercorn",
+   "name": "Paminta",
+   "english": "Black pepper",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 10,
+   "staple": true,
+   "aliases": [
+    "paminta",
+    "pepper"
+   ]
+  },
+  {
+   "id": "salt",
+   "name": "Asin",
+   "english": "Salt",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.03,
+   "staple": true,
+   "aliases": [
+    "asin",
+    "salt"
+   ]
+  },
+  {
+   "id": "sugar",
+   "name": "Asukal",
+   "english": "Sugar",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.08,
+   "staple": true,
+   "aliases": [
+    "asukal",
+    "sugar"
+   ]
+  },
+  {
+   "id": "water",
+   "name": "Tubig",
+   "english": "Water",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0,
+   "staple": true,
+   "aliases": [
+    "tubig",
+    "water"
+   ]
+  },
+  {
+   "id": "siling_labuyo",
+   "name": "Siling labuyo",
+   "english": "Bird's eye chili",
+   "section": "produce",
+   "unit": "pack",
+   "price": 10,
+   "aliases": [
+    "labuyo",
+    "bird's eye chili",
+    "sili"
+   ]
+  },
+  {
+   "id": "dahon_gabi",
+   "name": "Tuyong dahon ng gabi (100 g)",
+   "english": "Dried taro leaves",
+   "section": "produce",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "gabi",
+    "taro leaves",
+    "dahon ng gabi"
+   ]
+  },
+  {
+   "id": "pork_liver",
+   "name": "Atay ng baboy",
+   "english": "Pork liver",
+   "section": "meat",
+   "unit": "kg",
+   "price": 220,
+   "aliases": [
+    "atay",
+    "liver"
+   ]
+  },
+  {
+   "id": "oxtail",
+   "name": "Buntot ng baka",
+   "english": "Oxtail",
+   "section": "meat",
+   "unit": "kg",
+   "price": 460,
+   "aliases": [
+    "buntot",
+    "oxtail",
+    "baka"
+   ]
+  },
+  {
+   "id": "peanut_butter",
+   "name": "Peanut butter (340 g)",
+   "english": "Peanut butter",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 85,
+   "aliases": [
+    "peanut butter",
+    "mani"
+   ]
+  },
+  {
+   "id": "rice",
+   "name": "Bigas",
+   "english": "Rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 55,
+   "aliases": [
+    "bigas",
+    "rice"
+   ]
+  },
+  {
+   "id": "annatto",
+   "name": "Atsuete",
+   "english": "Annatto seeds",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 12,
+   "aliases": [
+    "atsuete",
+    "achuete",
+    "annatto"
+   ]
+  },
+  {
+   "id": "pechay",
+   "name": "Pechay",
+   "english": "Bok choy",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 20,
+   "aliases": [
+    "pechay",
+    "petsay",
+    "bok choy"
+   ]
+  },
+  {
+   "id": "brown_sugar",
+   "name": "Asukal na pula",
+   "english": "Brown sugar",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.09,
+   "aliases": [
+    "asukal na pula",
+    "brown sugar",
+    "muscovado"
+   ]
+  },
+  {
+   "id": "tausi",
+   "name": "Tausi",
+   "english": "Fermented black beans",
+   "section": "pantry",
+   "unit": "can",
+   "price": 30,
+   "aliases": [
+    "tausi",
+    "black beans"
+   ]
+  },
+  {
+   "id": "lemongrass",
+   "name": "Tanglad",
+   "english": "Lemongrass",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 10,
+   "aliases": [
+    "tanglad",
+    "lemongrass"
+   ]
+  },
+  {
+   "id": "alugbati",
+   "name": "Alugbati",
+   "english": "Malabar spinach",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 15,
+   "aliases": [
+    "alugbati",
+    "spinach"
+   ]
+  },
+  {
+   "id": "grated_coconut",
+   "name": "Kinayod na niyog (250 g)",
+   "english": "Grated coconut",
+   "section": "produce",
+   "unit": "pack",
+   "price": 35,
+   "aliases": [
+    "niyog",
+    "kinayod",
+    "coconut"
+   ]
+  },
+  {
+   "id": "turmeric",
+   "name": "Luyang dilaw",
+   "english": "Turmeric",
+   "section": "produce",
+   "unit": "pc",
+   "price": 8,
+   "aliases": [
+    "luyang dilaw",
+    "turmeric",
+    "dilaw"
+   ]
+  },
+  {
+   "id": "green_peas",
+   "name": "Gisantes (lata)",
+   "english": "Green peas",
+   "section": "pantry",
+   "unit": "can",
+   "price": 30,
+   "aliases": [
+    "gisantes",
+    "green peas",
+    "peas"
+   ]
+  },
+  {
+   "id": "pork_chop",
+   "name": "Pork chop",
+   "english": "Pork chop",
+   "section": "meat",
+   "unit": "kg",
+   "price": 340,
+   "aliases": [
+    "pork chop",
+    "baboy"
+   ]
+  },
+  {
+   "id": "pork_pata",
+   "name": "Pata ng baboy",
+   "english": "Pork hock",
+   "section": "meat",
+   "unit": "kg",
+   "price": 300,
+   "aliases": [
+    "pata",
+    "pork leg"
+   ]
+  },
+  {
+   "id": "pork_giniling",
+   "name": "Giniling na baboy",
+   "english": "Ground pork",
+   "section": "meat",
+   "unit": "kg",
+   "price": 320,
+   "aliases": [
+    "giniling",
+    "ground pork"
+   ]
+  },
+  {
+   "id": "beef_giniling",
+   "name": "Giniling na baka",
+   "english": "Ground beef",
+   "section": "meat",
+   "unit": "kg",
+   "price": 430,
+   "aliases": [
+    "giniling na baka",
+    "ground beef"
+   ]
+  },
+  {
+   "id": "chicken_giniling",
+   "name": "Giniling na manok",
+   "english": "Ground chicken",
+   "section": "meat",
+   "unit": "kg",
+   "price": 240,
+   "aliases": [
+    "ground chicken"
+   ]
+  },
+  {
+   "id": "chicken_breast",
+   "name": "Pechu ng manok",
+   "english": "Chicken breast",
+   "section": "meat",
+   "unit": "kg",
+   "price": 250,
+   "aliases": [
+    "pechu",
+    "breast",
+    "manok"
+   ]
+  },
+  {
+   "id": "chicken_wings",
+   "name": "Pakpak ng manok",
+   "english": "Chicken wings",
+   "section": "meat",
+   "unit": "kg",
+   "price": 230,
+   "aliases": [
+    "pakpak",
+    "wings"
+   ]
+  },
+  {
+   "id": "chicken_liver",
+   "name": "Atay ng manok",
+   "english": "Chicken liver",
+   "section": "meat",
+   "unit": "kg",
+   "price": 180,
+   "aliases": [
+    "atay ng manok",
+    "liver"
+   ]
+  },
+  {
+   "id": "beef_brisket",
+   "name": "Punta y pecho (baka)",
+   "english": "Beef brisket",
+   "section": "meat",
+   "unit": "kg",
+   "price": 450,
+   "aliases": [
+    "brisket",
+    "baka"
+   ]
+  },
+  {
+   "id": "beef_shank",
+   "name": "Bulalo (kenchi ng baka)",
+   "english": "Beef shank with marrow",
+   "section": "meat",
+   "unit": "kg",
+   "price": 400,
+   "aliases": [
+    "bulalo",
+    "kenchi",
+    "shank"
+   ]
+  },
+  {
+   "id": "beef_ribs",
+   "name": "Tadyang ng baka",
+   "english": "Beef short ribs",
+   "section": "meat",
+   "unit": "kg",
+   "price": 420,
+   "aliases": [
+    "tadyang",
+    "short ribs"
+   ]
+  },
+  {
+   "id": "beef_tripe",
+   "name": "Tuwalya ng baka",
+   "english": "Beef tripe",
+   "section": "meat",
+   "unit": "kg",
+   "price": 300,
+   "aliases": [
+    "tuwalya",
+    "tripe"
+   ]
+  },
+  {
+   "id": "pork_maskara",
+   "name": "Maskara at tenga ng baboy",
+   "english": "Pork face and ears",
+   "section": "meat",
+   "unit": "kg",
+   "price": 220,
+   "aliases": [
+    "maskara",
+    "tenga",
+    "ears"
+   ]
+  },
+  {
+   "id": "pork_innards",
+   "name": "Lamang-loob ng baboy",
+   "english": "Pork innards",
+   "section": "meat",
+   "unit": "kg",
+   "price": 200,
+   "aliases": [
+    "lamang loob",
+    "innards",
+    "bituka"
+   ]
+  },
+  {
+   "id": "pork_blood",
+   "name": "Dugo ng baboy",
+   "english": "Pork blood",
+   "section": "meat",
+   "unit": "pack",
+   "price": 35,
+   "aliases": [
+    "dugo",
+    "blood"
+   ]
+  },
+  {
+   "id": "hotdog",
+   "name": "Hotdog",
+   "english": "Hotdog",
+   "section": "meat",
+   "unit": "pack",
+   "price": 70,
+   "aliases": [
+    "hotdog"
+   ]
+  },
+  {
+   "id": "ham",
+   "name": "Ham",
+   "english": "Ham",
+   "section": "meat",
+   "unit": "pack",
+   "price": 90,
+   "aliases": [
+    "ham"
+   ]
+  },
+  {
+   "id": "chorizo",
+   "name": "Chorizo de Bilbao",
+   "english": "Chorizo",
+   "section": "meat",
+   "unit": "pack",
+   "price": 110,
+   "aliases": [
+    "chorizo"
+   ]
+  },
+  {
+   "id": "bacon",
+   "name": "Bacon",
+   "english": "Bacon",
+   "section": "meat",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "bacon"
+   ]
+  },
+  {
+   "id": "lechon_belly",
+   "name": "Liempo na buo (pang-lechon)",
+   "english": "Whole pork belly slab",
+   "section": "meat",
+   "unit": "kg",
+   "price": 380,
+   "aliases": [
+    "lechon",
+    "belly slab"
+   ]
+  },
+  {
+   "id": "tilapia",
+   "name": "Tilapia",
+   "english": "Tilapia",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 140,
+   "aliases": [
+    "tilapia",
+    "isda"
+   ]
+  },
+  {
+   "id": "bangus",
+   "name": "Bangus",
+   "english": "Milkfish",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 220,
+   "aliases": [
+    "bangus",
+    "milkfish"
+   ]
+  },
+  {
+   "id": "tuna",
+   "name": "Tuna (sariwa)",
+   "english": "Fresh tuna",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 350,
+   "aliases": [
+    "tuna",
+    "panga"
+   ]
+  },
+  {
+   "id": "tuna_can",
+   "name": "Tuna (lata)",
+   "english": "Canned tuna",
+   "section": "pantry",
+   "unit": "can",
+   "price": 38,
+   "aliases": [
+    "canned tuna",
+    "tuna"
+   ]
+  },
+  {
+   "id": "sardinas",
+   "name": "Sardinas (lata)",
+   "english": "Canned sardines",
+   "section": "pantry",
+   "unit": "can",
+   "price": 25,
+   "aliases": [
+    "sardinas",
+    "sardines"
+   ]
+  },
+  {
+   "id": "pusit",
+   "name": "Pusit",
+   "english": "Squid",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 380,
+   "aliases": [
+    "pusit",
+    "squid"
+   ]
+  },
+  {
+   "id": "alimango",
+   "name": "Alimango",
+   "english": "Mud crab",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 650,
+   "aliases": [
+    "alimango",
+    "crab"
+   ]
+  },
+  {
+   "id": "alimasag",
+   "name": "Alimasag",
+   "english": "Blue crab",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 350,
+   "aliases": [
+    "alimasag",
+    "crab"
+   ]
+  },
+  {
+   "id": "tahong",
+   "name": "Tahong",
+   "english": "Mussels",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 120,
+   "aliases": [
+    "tahong",
+    "mussels"
+   ]
+  },
+  {
+   "id": "halaan",
+   "name": "Halaan",
+   "english": "Clams",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 140,
+   "aliases": [
+    "halaan",
+    "clams"
+   ]
+  },
+  {
+   "id": "kuhol",
+   "name": "Kuhol",
+   "english": "Snails",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 120,
+   "aliases": [
+    "kuhol",
+    "snails"
+   ]
+  },
+  {
+   "id": "tulingan",
+   "name": "Tulingan",
+   "english": "Bullet tuna",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 260,
+   "aliases": [
+    "tulingan"
+   ]
+  },
+  {
+   "id": "sapsap",
+   "name": "Sapsap",
+   "english": "Ponyfish",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 200,
+   "aliases": [
+    "sapsap"
+   ]
+  },
+  {
+   "id": "tamban",
+   "name": "Tamban",
+   "english": "Sardinella",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 160,
+   "aliases": [
+    "tamban"
+   ]
+  },
+  {
+   "id": "bisugo",
+   "name": "Bisugo",
+   "english": "Threadfin bream",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 260,
+   "aliases": [
+    "bisugo"
+   ]
+  },
+  {
+   "id": "lapu_lapu",
+   "name": "Lapu-lapu",
+   "english": "Grouper",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 450,
+   "aliases": [
+    "lapu-lapu",
+    "grouper"
+   ]
+  },
+  {
+   "id": "dulong",
+   "name": "Dulong",
+   "english": "Tiny silverfish",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 300,
+   "aliases": [
+    "dulong"
+   ]
+  },
+  {
+   "id": "dilis",
+   "name": "Dilis (tuyo)",
+   "english": "Dried anchovies",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 50,
+   "aliases": [
+    "dilis",
+    "anchovies"
+   ]
+  },
+  {
+   "id": "tuyo",
+   "name": "Tuyo",
+   "english": "Dried herring",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 50,
+   "aliases": [
+    "tuyo",
+    "dried fish"
+   ]
+  },
+  {
+   "id": "daing",
+   "name": "Daing na isda",
+   "english": "Dried split fish",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 80,
+   "aliases": [
+    "daing"
+   ]
+  },
+  {
+   "id": "tamilok",
+   "name": "Tamilok",
+   "english": "Shipworm (Palawan)",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 150,
+   "aliases": [
+    "tamilok"
+   ]
+  },
+  {
+   "id": "cabbage",
+   "name": "Repolyo",
+   "english": "Cabbage",
+   "section": "produce",
+   "unit": "kg",
+   "price": 80,
+   "aliases": [
+    "repolyo",
+    "cabbage"
+   ]
+  },
+  {
+   "id": "togue",
+   "name": "Togue",
+   "english": "Mung bean sprouts",
+   "section": "produce",
+   "unit": "kg",
+   "price": 80,
+   "aliases": [
+    "togue",
+    "bean sprouts"
+   ]
+  },
+  {
+   "id": "upo",
+   "name": "Upo",
+   "english": "Bottle gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 40,
+   "aliases": [
+    "upo"
+   ]
+  },
+  {
+   "id": "patola",
+   "name": "Patola",
+   "english": "Sponge gourd",
+   "section": "produce",
+   "unit": "pc",
+   "price": 30,
+   "aliases": [
+    "patola"
+   ]
+  },
+  {
+   "id": "baguio_beans",
+   "name": "Baguio beans",
+   "english": "Green beans",
+   "section": "produce",
+   "unit": "kg",
+   "price": 120,
+   "aliases": [
+    "baguio beans",
+    "green beans"
+   ]
+  },
+  {
+   "id": "mustasa",
+   "name": "Mustasa",
+   "english": "Mustard greens",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 25,
+   "aliases": [
+    "mustasa"
+   ]
+  },
+  {
+   "id": "broccoli",
+   "name": "Broccoli",
+   "english": "Broccoli",
+   "section": "produce",
+   "unit": "kg",
+   "price": 180,
+   "aliases": [
+    "broccoli"
+   ]
+  },
+  {
+   "id": "cauliflower",
+   "name": "Cauliflower",
+   "english": "Cauliflower",
+   "section": "produce",
+   "unit": "kg",
+   "price": 160,
+   "aliases": [
+    "cauliflower"
+   ]
+  },
+  {
+   "id": "celery",
+   "name": "Kintsay",
+   "english": "Chinese celery",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 20,
+   "aliases": [
+    "kinchay",
+    "celery"
+   ]
+  },
+  {
+   "id": "green_onion",
+   "name": "Dahon ng sibuyas",
+   "english": "Spring onion",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 10,
+   "aliases": [
+    "dahon ng sibuyas",
+    "spring onion",
+    "scallion"
+   ]
+  },
+  {
+   "id": "langka",
+   "name": "Hilaw na langka",
+   "english": "Unripe jackfruit",
+   "section": "produce",
+   "unit": "kg",
+   "price": 60,
+   "aliases": [
+    "langka",
+    "jackfruit"
+   ]
+  },
+  {
+   "id": "puso_saging",
+   "name": "Puso ng saging",
+   "english": "Banana blossom",
+   "section": "produce",
+   "unit": "pc",
+   "price": 40,
+   "aliases": [
+    "puso ng saging",
+    "banana heart"
+   ]
+  },
+  {
+   "id": "saba",
+   "name": "Saging na saba",
+   "english": "Saba banana",
+   "section": "produce",
+   "unit": "pc",
+   "price": 7,
+   "aliases": [
+    "saba",
+    "banana"
+   ]
+  },
+  {
+   "id": "gabi",
+   "name": "Gabi",
+   "english": "Taro",
+   "section": "produce",
+   "unit": "kg",
+   "price": 90,
+   "aliases": [
+    "gabi",
+    "taro"
+   ]
+  },
+  {
+   "id": "corn",
+   "name": "Mais",
+   "english": "Corn on the cob",
+   "section": "produce",
+   "unit": "pc",
+   "price": 20,
+   "aliases": [
+    "mais",
+    "corn"
+   ]
+  },
+  {
+   "id": "green_mango",
+   "name": "Hilaw na mangga",
+   "english": "Green mango",
+   "section": "produce",
+   "unit": "pc",
+   "price": 20,
+   "aliases": [
+    "mangga",
+    "mango"
+   ]
+  },
+  {
+   "id": "cucumber",
+   "name": "Pipino",
+   "english": "Cucumber",
+   "section": "produce",
+   "unit": "pc",
+   "price": 15,
+   "aliases": [
+    "pipino",
+    "cucumber"
+   ]
+  },
+  {
+   "id": "lettuce",
+   "name": "Letsugas",
+   "english": "Lettuce",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 40,
+   "aliases": [
+    "letsugas",
+    "lettuce"
+   ]
+  },
+  {
+   "id": "singkamas",
+   "name": "Singkamas",
+   "english": "Jicama",
+   "section": "produce",
+   "unit": "kg",
+   "price": 60,
+   "aliases": [
+    "singkamas",
+    "jicama"
+   ]
+  },
+  {
+   "id": "kamote",
+   "name": "Kamote",
+   "english": "Sweet potato",
+   "section": "produce",
+   "unit": "kg",
+   "price": 70,
+   "aliases": [
+    "kamote",
+    "sweet potato"
+   ]
+  },
+  {
+   "id": "kadyos",
+   "name": "Kadyos",
+   "english": "Pigeon peas",
+   "section": "produce",
+   "unit": "kg",
+   "price": 160,
+   "aliases": [
+    "kadyos",
+    "pigeon peas"
+   ]
+  },
+  {
+   "id": "batwan",
+   "name": "Batwan o kamias",
+   "english": "Batwan or bilimbi",
+   "section": "produce",
+   "unit": "pack",
+   "price": 20,
+   "aliases": [
+    "batwan",
+    "kamias"
+   ]
+  },
+  {
+   "id": "pineapple",
+   "name": "Pinya (lata, tidbits)",
+   "english": "Canned pineapple",
+   "section": "pantry",
+   "unit": "can",
+   "price": 60,
+   "aliases": [
+    "pinya",
+    "pineapple"
+   ]
+  },
+  {
+   "id": "mushroom",
+   "name": "Kabute (lata)",
+   "english": "Canned mushrooms",
+   "section": "pantry",
+   "unit": "can",
+   "price": 40,
+   "aliases": [
+    "kabute",
+    "mushroom"
+   ]
+  },
+  {
+   "id": "tokwa",
+   "name": "Tokwa",
+   "english": "Firm tofu",
+   "section": "produce",
+   "unit": "pc",
+   "price": 15,
+   "aliases": [
+    "tokwa",
+    "tofu"
+   ]
+  },
+  {
+   "id": "salted_egg",
+   "name": "Itlog na maalat",
+   "english": "Salted egg",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 15,
+   "aliases": [
+    "itlog na maalat",
+    "salted egg"
+   ]
+  },
+  {
+   "id": "quail_egg",
+   "name": "Itlog ng pugo (12 pcs)",
+   "english": "Quail eggs",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "pugo",
+    "quail eggs"
+   ]
+  },
+  {
+   "id": "flour",
+   "name": "Harina",
+   "english": "All-purpose flour",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 60,
+   "aliases": [
+    "harina",
+    "flour"
+   ]
+  },
+  {
+   "id": "cornstarch",
+   "name": "Cornstarch",
+   "english": "Cornstarch",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "cornstarch",
+    "gawgaw"
+   ]
+  },
+  {
+   "id": "breadcrumbs",
+   "name": "Breadcrumbs",
+   "english": "Breadcrumbs",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "breadcrumbs"
+   ]
+  },
+  {
+   "id": "evap_milk",
+   "name": "Evaporated milk",
+   "english": "Evaporated milk",
+   "section": "pantry",
+   "unit": "can",
+   "price": 35,
+   "aliases": [
+    "evap",
+    "gatas"
+   ]
+  },
+  {
+   "id": "cream",
+   "name": "All-purpose cream",
+   "english": "All-purpose cream",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 70,
+   "aliases": [
+    "cream",
+    "nestle cream"
+   ]
+  },
+  {
+   "id": "cheese",
+   "name": "Keso",
+   "english": "Cheese",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "keso",
+    "cheese"
+   ]
+  },
+  {
+   "id": "butter",
+   "name": "Mantikilya",
+   "english": "Butter",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "mantikilya",
+    "butter",
+    "margarine"
+   ]
+  },
+  {
+   "id": "mayonnaise",
+   "name": "Mayonnaise",
+   "english": "Mayonnaise",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 90,
+   "aliases": [
+    "mayo",
+    "mayonnaise"
+   ]
+  },
+  {
+   "id": "oyster_sauce",
+   "name": "Oyster sauce",
+   "english": "Oyster sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.25,
+   "aliases": [
+    "oyster sauce"
+   ]
+  },
+  {
+   "id": "banana_ketchup",
+   "name": "Banana ketchup",
+   "english": "Banana ketchup",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.08,
+   "aliases": [
+    "ketchup",
+    "catsup"
+   ]
+  },
+  {
+   "id": "tomato_paste",
+   "name": "Tomato paste",
+   "english": "Tomato paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "tomato paste"
+   ]
+  },
+  {
+   "id": "raisins",
+   "name": "Pasas",
+   "english": "Raisins",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "pasas",
+    "raisins"
+   ]
+  },
+  {
+   "id": "curry_powder",
+   "name": "Curry powder",
+   "english": "Curry powder",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 20,
+   "aliases": [
+    "curry"
+   ]
+  },
+  {
+   "id": "paprika",
+   "name": "Paprika",
+   "english": "Paprika",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 20,
+   "aliases": [
+    "paprika"
+   ]
+  },
+  {
+   "id": "star_anise",
+   "name": "Star anise",
+   "english": "Star anise",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 15,
+   "aliases": [
+    "star anise",
+    "sangke"
+   ]
+  },
+  {
+   "id": "misua",
+   "name": "Misua",
+   "english": "Thin wheat noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 20,
+   "aliases": [
+    "misua"
+   ]
+  },
+  {
+   "id": "sotanghon",
+   "name": "Sotanghon",
+   "english": "Glass noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "sotanghon",
+    "glass noodles"
+   ]
+  },
+  {
+   "id": "egg_noodles",
+   "name": "Miki / egg noodles",
+   "english": "Egg noodles",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 90,
+   "aliases": [
+    "miki",
+    "egg noodles",
+    "mami"
+   ]
+  },
+  {
+   "id": "wonton_wrapper",
+   "name": "Molo wrapper",
+   "english": "Wonton wrappers",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 40,
+   "aliases": [
+    "molo wrapper",
+    "wonton"
+   ]
+  },
+  {
+   "id": "lumpia_wrapper",
+   "name": "Lumpia wrapper",
+   "english": "Spring roll wrappers",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 40,
+   "aliases": [
+    "lumpia wrapper"
+   ]
+  },
+  {
+   "id": "glutinous_rice",
+   "name": "Malagkit",
+   "english": "Glutinous rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 80,
+   "aliases": [
+    "malagkit",
+    "glutinous rice"
+   ]
+  },
+  {
+   "id": "miso",
+   "name": "Miso",
+   "english": "Miso paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 40,
+   "aliases": [
+    "miso"
+   ]
+  },
+  {
+   "id": "pineapple_juice",
+   "name": "Pineapple juice (lata)",
+   "english": "Pineapple juice",
+   "section": "pantry",
+   "unit": "can",
+   "price": 35,
+   "aliases": [
+    "pineapple juice"
+   ]
+  },
+  {
+   "id": "liquid_seasoning",
+   "name": "Liquid seasoning",
+   "english": "Liquid seasoning",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.15,
+   "aliases": [
+    "liquid seasoning",
+    "maggi"
+   ]
+  },
+  {
+   "id": "chicharon",
+   "name": "Chicharon",
+   "english": "Pork cracklings",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 40,
+   "aliases": [
+    "chicharon"
+   ]
+  },
+  {
+   "id": "gata_kakang",
+   "name": "Kakang gata (200 ml)",
+   "english": "Coconut cream",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "kakang gata",
+    "coconut cream"
+   ]
+  },
+  {
+   "id": "palapa",
+   "name": "Palapa",
+   "english": "Palapa (Maranao condiment)",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 120,
+   "aliases": [
+    "palapa"
+   ]
+  },
+  {
+   "id": "burnt_coconut",
+   "name": "Sinunog na niyog (pang-itum)",
+   "english": "Burnt coconut paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 40,
+   "aliases": [
+    "burnt coconut",
+    "itum"
+   ]
+  },
+  {
+   "id": "banana_leaf",
+   "name": "Dahon ng saging",
+   "english": "Banana leaves",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 20,
+   "aliases": [
+    "dahon ng saging",
+    "banana leaf"
+   ]
+  },
+  {
+   "id": "spices_rendang",
+   "name": "Rempa (pampalasang rendang)",
+   "english": "Rendang spice mix",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "rendang",
+    "rempah"
+   ]
+  },
+  {
+   "id": "seafood_mix",
+   "name": "Halo-halong lamang-dagat",
+   "english": "Mixed seafood",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 420,
+   "aliases": [
+    "seafood mix"
+   ]
+  },
+  {
+   "id": "magic_sarap",
+   "name": "All-purpose seasoning (8 g)",
+   "english": "All-purpose seasoning granules",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 5,
+   "aliases": [
+    "all-purpose seasoning",
+    "pampalasa",
+    "magic sarap",
+    "seasoning",
+    "vetsin"
+   ]
+  },
+  {
+   "id": "chicken_cube",
+   "name": "Chicken bouillon cube",
+   "english": "Chicken bouillon cube",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 10,
+   "aliases": [
+    "bouillon",
+    "chicken cube",
+    "cubes",
+    "knorr"
+   ]
+  },
+  {
+   "id": "pork_cube",
+   "name": "Pork bouillon cube",
+   "english": "Pork bouillon cube",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 10,
+   "aliases": [
+    "bouillon",
+    "pork cube",
+    "cubes",
+    "knorr"
+   ]
+  },
+  {
+   "id": "beef_cube",
+   "name": "Beef bouillon cube",
+   "english": "Beef bouillon cube",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 10,
+   "aliases": [
+    "bouillon",
+    "beef cube",
+    "cubes",
+    "knorr"
+   ]
+  },
+  {
+   "id": "shrimp_cube",
+   "name": "Shrimp bouillon cube",
+   "english": "Shrimp bouillon cube",
+   "section": "pantry",
+   "unit": "pc",
+   "price": 10,
+   "aliases": [
+    "bouillon",
+    "shrimp cube",
+    "cubes",
+    "knorr"
+   ]
+  },
+  {
+   "id": "sesame_oil",
+   "name": "Sesame oil",
+   "english": "Sesame oil",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.6,
+   "aliases": [
+    "sesame oil",
+    "langis ng linga"
+   ]
+  },
+  {
+   "id": "sesame_seeds",
+   "name": "Linga",
+   "english": "Sesame seeds",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "linga",
+    "sesame"
+   ]
+  },
+  {
+   "id": "mirin",
+   "name": "Mirin",
+   "english": "Mirin (sweet rice seasoning)",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.8,
+   "aliases": [
+    "mirin"
+   ]
+  },
+  {
+   "id": "cooking_wine",
+   "name": "Rice wine (pangluto)",
+   "english": "Rice cooking wine",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.5,
+   "aliases": [
+    "shaoxing",
+    "rice wine",
+    "sake"
+   ]
+  },
+  {
+   "id": "panko",
+   "name": "Panko breadcrumbs",
+   "english": "Panko breadcrumbs",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 75,
+   "aliases": [
+    "panko"
+   ]
+  },
+  {
+   "id": "tonkatsu_sauce",
+   "name": "Tonkatsu sauce",
+   "english": "Tonkatsu sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.5,
+   "aliases": [
+    "katsu sauce",
+    "tonkatsu"
+   ]
+  },
+  {
+   "id": "curry_roux",
+   "name": "Japanese curry roux",
+   "english": "Japanese curry roux",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 180,
+   "aliases": [
+    "japanese curry",
+    "curry block",
+    "curry roux"
+   ]
+  },
+  {
+   "id": "dashi",
+   "name": "Dashi powder",
+   "english": "Dashi (fish stock) powder",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 15,
+   "aliases": [
+    "dashi",
+    "hondashi"
+   ]
+  },
+  {
+   "id": "nori",
+   "name": "Nori",
+   "english": "Nori seaweed",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "nori",
+    "seaweed",
+    "gim"
+   ]
+  },
+  {
+   "id": "gochujang",
+   "name": "Gochujang",
+   "english": "Korean chili paste",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.9,
+   "aliases": [
+    "gochujang",
+    "korean chili paste"
+   ]
+  },
+  {
+   "id": "gochugaru",
+   "name": "Gochugaru",
+   "english": "Korean chili flakes",
+   "section": "pantry",
+   "unit": "g",
+   "price": 1.2,
+   "aliases": [
+    "gochugaru",
+    "korean chili powder"
+   ]
+  },
+  {
+   "id": "kimchi",
+   "name": "Kimchi",
+   "english": "Kimchi",
+   "section": "produce",
+   "unit": "g",
+   "price": 0.6,
+   "aliases": [
+    "kimchi"
+   ]
+  },
+  {
+   "id": "tteok",
+   "name": "Tteok (rice cakes)",
+   "english": "Korean rice cakes",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 160,
+   "aliases": [
+    "tteok",
+    "rice cake",
+    "topokki"
+   ]
+  },
+  {
+   "id": "fish_cake",
+   "name": "Fish cake (eomuk)",
+   "english": "Korean fish cake",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "eomuk",
+    "odeng",
+    "fish cake"
+   ]
+  },
+  {
+   "id": "dangmyeon",
+   "name": "Korean glass noodles",
+   "english": "Sweet potato glass noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "dangmyeon",
+    "japchae noodles"
+   ]
+  },
+  {
+   "id": "chunjang",
+   "name": "Black bean paste",
+   "english": "Korean black bean paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "chunjang",
+    "black bean paste"
+   ]
+  },
+  {
+   "id": "soft_tofu",
+   "name": "Silken tofu",
+   "english": "Soft/silken tofu",
+   "section": "produce",
+   "unit": "pc",
+   "price": 45,
+   "aliases": [
+    "silken tofu",
+    "soft tofu",
+    "sundubu"
+   ]
+  },
+  {
+   "id": "hoisin",
+   "name": "Hoisin sauce",
+   "english": "Hoisin sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.6,
+   "aliases": [
+    "hoisin"
+   ]
+  },
+  {
+   "id": "chili_bean_paste",
+   "name": "Chili bean paste",
+   "english": "Chili bean paste (doubanjiang)",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 120,
+   "aliases": [
+    "doubanjiang",
+    "chili bean"
+   ]
+  },
+  {
+   "id": "sichuan_pepper",
+   "name": "Sichuan pepper",
+   "english": "Sichuan peppercorns",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "sichuan",
+    "szechuan"
+   ]
+  },
+  {
+   "id": "dried_chili",
+   "name": "Tuyong sili",
+   "english": "Dried red chilies",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "dried chili",
+    "tuyong sili"
+   ]
+  },
+  {
+   "id": "cashew",
+   "name": "Kasoy",
+   "english": "Cashew nuts",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "kasoy",
+    "cashew"
+   ]
+  },
+  {
+   "id": "peanuts",
+   "name": "Mani",
+   "english": "Roasted peanuts",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "mani",
+    "peanut"
+   ]
+  },
+  {
+   "id": "shiitake",
+   "name": "Shiitake (tuyo)",
+   "english": "Dried shiitake mushrooms",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "shiitake"
+   ]
+  },
+  {
+   "id": "dumpling_wrapper",
+   "name": "Dumpling wrapper",
+   "english": "Dumpling/gyoza wrappers",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 55,
+   "aliases": [
+    "gyoza wrapper",
+    "dumpling wrapper",
+    "siomai wrapper"
+   ]
+  },
+  {
+   "id": "ketchup",
+   "name": "Tomato ketchup",
+   "english": "Tomato ketchup",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.12,
+   "aliases": [
+    "ketchup",
+    "tomato ketchup"
+   ]
+  },
+  {
+   "id": "sriracha",
+   "name": "Sriracha",
+   "english": "Sriracha chili sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.4,
+   "aliases": [
+    "sriracha",
+    "chili sauce"
+   ]
+  },
+  {
+   "id": "honey",
+   "name": "Pulot-pukyutan",
+   "english": "Honey",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.6,
+   "aliases": [
+    "honey",
+    "pulot"
+   ]
+  },
+  {
+   "id": "orange",
+   "name": "Dalandan / orange",
+   "english": "Orange",
+   "section": "produce",
+   "unit": "pc",
+   "price": 30,
+   "aliases": [
+    "orange",
+    "dalandan"
+   ]
+  },
+  {
+   "id": "lemon",
+   "name": "Lemon",
+   "english": "Lemon",
+   "section": "produce",
+   "unit": "pc",
+   "price": 25,
+   "aliases": [
+    "lemon"
+   ]
+  },
+  {
+   "id": "cilantro",
+   "name": "Wansoy",
+   "english": "Cilantro/coriander leaves",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 15,
+   "aliases": [
+    "wansoy",
+    "cilantro",
+    "coriander"
+   ]
+  },
+  {
+   "id": "basil",
+   "name": "Basil",
+   "english": "Basil (Thai or sweet)",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 30,
+   "aliases": [
+    "basil",
+    "balanoy",
+    "thai basil"
+   ]
+  },
+  {
+   "id": "parsley",
+   "name": "Parsley",
+   "english": "Parsley",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 25,
+   "aliases": [
+    "parsley",
+    "kinchay"
+   ]
+  },
+  {
+   "id": "mint",
+   "name": "Mint",
+   "english": "Mint leaves",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 25,
+   "aliases": [
+    "mint",
+    "yerba buena"
+   ]
+  },
+  {
+   "id": "spinach",
+   "name": "Spinach",
+   "english": "Spinach",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 60,
+   "aliases": [
+    "spinach",
+    "alugbati"
+   ]
+  },
+  {
+   "id": "zucchini",
+   "name": "Zucchini",
+   "english": "Zucchini",
+   "section": "produce",
+   "unit": "pc",
+   "price": 45,
+   "aliases": [
+    "zucchini"
+   ]
+  },
+  {
+   "id": "enoki",
+   "name": "Enoki",
+   "english": "Enoki mushrooms",
+   "section": "produce",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "enoki"
+   ]
+  },
+  {
+   "id": "fresh_mushroom",
+   "name": "Button mushroom",
+   "english": "Fresh button mushrooms",
+   "section": "produce",
+   "unit": "pack",
+   "price": 85,
+   "aliases": [
+    "button mushroom",
+    "fresh mushroom"
+   ]
+  },
+  {
+   "id": "green_curry_paste",
+   "name": "Green curry paste",
+   "english": "Thai green curry paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "green curry"
+   ]
+  },
+  {
+   "id": "red_curry_paste",
+   "name": "Red curry paste",
+   "english": "Thai red curry paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "red curry"
+   ]
+  },
+  {
+   "id": "massaman_paste",
+   "name": "Massaman curry paste",
+   "english": "Massaman curry paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 55,
+   "aliases": [
+    "massaman"
+   ]
+  },
+  {
+   "id": "rice_noodles",
+   "name": "Rice noodles (pad thai)",
+   "english": "Flat rice noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 70,
+   "aliases": [
+    "rice noodles",
+    "pad thai noodles",
+    "rice stick"
+   ]
+  },
+  {
+   "id": "wide_rice_noodles",
+   "name": "Malapad na rice noodles",
+   "english": "Wide rice noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 80,
+   "aliases": [
+    "pad see ew noodles",
+    "hor fun"
+   ]
+  },
+  {
+   "id": "tamarind",
+   "name": "Sampalok (paste)",
+   "english": "Tamarind paste",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "sampalok",
+    "tamarind"
+   ]
+  },
+  {
+   "id": "spaghetti",
+   "name": "Spaghetti",
+   "english": "Spaghetti",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 140,
+   "aliases": [
+    "spaghetti",
+    "pasta"
+   ]
+  },
+  {
+   "id": "penne",
+   "name": "Penne",
+   "english": "Penne pasta",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 160,
+   "aliases": [
+    "penne"
+   ]
+  },
+  {
+   "id": "fettuccine",
+   "name": "Fettuccine",
+   "english": "Fettuccine",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 180,
+   "aliases": [
+    "fettuccine",
+    "fettucine"
+   ]
+  },
+  {
+   "id": "macaroni",
+   "name": "Macaroni",
+   "english": "Elbow macaroni",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 110,
+   "aliases": [
+    "macaroni",
+    "elbow"
+   ]
+  },
+  {
+   "id": "lasagna_sheets",
+   "name": "Lasagna sheets",
+   "english": "Lasagna sheets",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "lasagna"
+   ]
+  },
+  {
+   "id": "cannelloni_tubes",
+   "name": "Cannelloni",
+   "english": "Cannelloni tubes",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 140,
+   "aliases": [
+    "cannelloni",
+    "manicotti"
+   ]
+  },
+  {
+   "id": "pasta_shells",
+   "name": "Jumbo shells",
+   "english": "Jumbo pasta shells",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 130,
+   "aliases": [
+    "shells",
+    "conchiglioni"
+   ]
+  },
+  {
+   "id": "arborio",
+   "name": "Arborio rice",
+   "english": "Arborio (risotto) rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 380,
+   "aliases": [
+    "arborio",
+    "risotto"
+   ]
+  },
+  {
+   "id": "parmesan",
+   "name": "Parmesan",
+   "english": "Parmesan cheese",
+   "section": "pantry",
+   "unit": "g",
+   "price": 1.6,
+   "aliases": [
+    "parmesan",
+    "parmigiano"
+   ]
+  },
+  {
+   "id": "mozzarella",
+   "name": "Mozzarella",
+   "english": "Mozzarella cheese",
+   "section": "pantry",
+   "unit": "g",
+   "price": 1.0,
+   "aliases": [
+    "mozzarella"
+   ]
+  },
+  {
+   "id": "olive_oil",
+   "name": "Olive oil",
+   "english": "Olive oil",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.6,
+   "aliases": [
+    "olive oil"
+   ]
+  },
+  {
+   "id": "italian_sausage",
+   "name": "Italian sausage",
+   "english": "Italian sausage",
+   "section": "meat",
+   "unit": "pack",
+   "price": 220,
+   "aliases": [
+    "italian sausage"
+   ]
+  },
+  {
+   "id": "diced_tomatoes",
+   "name": "Diced tomatoes (de lata)",
+   "english": "Canned diced tomatoes",
+   "section": "pantry",
+   "unit": "can",
+   "price": 75,
+   "aliases": [
+    "canned tomatoes",
+    "diced tomatoes"
+   ]
+  },
+  {
+   "id": "dried_herbs",
+   "name": "Italian herbs (tuyo)",
+   "english": "Dried Italian herbs/oregano",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 35,
+   "aliases": [
+    "oregano",
+    "italian seasoning",
+    "dried herbs"
+   ]
+  },
+  {
+   "id": "chili_flakes",
+   "name": "Chili flakes",
+   "english": "Chili flakes",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "chili flakes"
+   ]
+  },
+  {
+   "id": "garlic_powder",
+   "name": "Garlic powder",
+   "english": "Garlic powder",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "garlic powder"
+   ]
+  },
+  {
+   "id": "bbq_sauce",
+   "name": "BBQ sauce",
+   "english": "Barbecue sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.25,
+   "aliases": [
+    "bbq sauce",
+    "barbecue sauce"
+   ]
+  },
+  {
+   "id": "hot_sauce",
+   "name": "Hot sauce",
+   "english": "Hot sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.4,
+   "aliases": [
+    "hot sauce",
+    "buffalo"
+   ]
+  },
+  {
+   "id": "worcestershire",
+   "name": "Worcestershire sauce",
+   "english": "Worcestershire sauce",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.5,
+   "aliases": [
+    "worcestershire"
+   ]
+  },
+  {
+   "id": "mustard",
+   "name": "Mustasa (sauce)",
+   "english": "Mustard",
+   "section": "pantry",
+   "unit": "ml",
+   "price": 0.4,
+   "aliases": [
+    "mustard",
+    "yellow mustard"
+   ]
+  },
+  {
+   "id": "pickle_relish",
+   "name": "Pickle relish",
+   "english": "Sweet pickle relish",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 70,
+   "aliases": [
+    "relish",
+    "pickles"
+   ]
+  },
+  {
+   "id": "gravy_mix",
+   "name": "Gravy mix",
+   "english": "Gravy mix",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "gravy"
+   ]
+  },
+  {
+   "id": "cream_dory",
+   "name": "Cream dory fillet",
+   "english": "Fish fillet (cream dory/basa)",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 220,
+   "aliases": [
+    "cream dory",
+    "fish fillet",
+    "basa"
+   ]
+  },
+  {
+   "id": "salmon",
+   "name": "Salmon",
+   "english": "Salmon fillet",
+   "section": "seafood",
+   "unit": "kg",
+   "price": 1100,
+   "aliases": [
+    "salmon"
+   ]
+  },
+  {
+   "id": "unagi",
+   "name": "Unagi (eel)",
+   "english": "Grilled eel (frozen)",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 450,
+   "aliases": [
+    "unagi",
+    "eel"
+   ]
+  },
+  {
+   "id": "tortilla",
+   "name": "Tortilla",
+   "english": "Flour tortillas",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 120,
+   "aliases": [
+    "tortilla",
+    "wrap"
+   ]
+  },
+  {
+   "id": "pita",
+   "name": "Pita bread",
+   "english": "Pita bread",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 85,
+   "aliases": [
+    "pita",
+    "pita bread"
+   ]
+  },
+  {
+   "id": "lamb",
+   "name": "Karne ng tupa",
+   "english": "Lamb",
+   "section": "meat",
+   "unit": "kg",
+   "price": 950,
+   "aliases": [
+    "tupa",
+    "lamb",
+    "mutton"
+   ]
+  },
+  {
+   "id": "basmati",
+   "name": "Basmati rice",
+   "english": "Basmati rice",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 280,
+   "aliases": [
+    "basmati"
+   ]
+  },
+  {
+   "id": "chickpeas",
+   "name": "Garbanzos",
+   "english": "Chickpeas",
+   "section": "pantry",
+   "unit": "can",
+   "price": 70,
+   "aliases": [
+    "garbanzos",
+    "chickpeas"
+   ]
+  },
+  {
+   "id": "lentils",
+   "name": "Lentils",
+   "english": "Lentils",
+   "section": "pantry",
+   "unit": "kg",
+   "price": 220,
+   "aliases": [
+    "lentils",
+    "dal"
+   ]
+  },
+  {
+   "id": "tahini",
+   "name": "Tahini",
+   "english": "Tahini (sesame paste)",
+   "section": "pantry",
+   "unit": "jar",
+   "price": 250,
+   "aliases": [
+    "tahini"
+   ]
+  },
+  {
+   "id": "yogurt",
+   "name": "Plain yogurt",
+   "english": "Plain yogurt",
+   "section": "pantry",
+   "unit": "g",
+   "price": 0.3,
+   "aliases": [
+    "yogurt",
+    "yoghurt"
+   ]
+  },
+  {
+   "id": "paneer",
+   "name": "Paneer",
+   "english": "Paneer cheese",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 180,
+   "aliases": [
+    "paneer"
+   ]
+  },
+  {
+   "id": "cumin",
+   "name": "Cumin",
+   "english": "Ground cumin",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 35,
+   "aliases": [
+    "cumin",
+    "jeera"
+   ]
+  },
+  {
+   "id": "coriander_powder",
+   "name": "Coriander powder",
+   "english": "Ground coriander",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "coriander powder"
+   ]
+  },
+  {
+   "id": "garam_masala",
+   "name": "Garam masala",
+   "english": "Garam masala",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 45,
+   "aliases": [
+    "garam masala"
+   ]
+  },
+  {
+   "id": "chili_powder",
+   "name": "Chili powder",
+   "english": "Chili powder",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "chili powder",
+    "cayenne"
+   ]
+  },
+  {
+   "id": "cinnamon",
+   "name": "Kanela",
+   "english": "Cinnamon",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "kanela",
+    "cinnamon"
+   ]
+  },
+  {
+   "id": "cardamom",
+   "name": "Cardamom",
+   "english": "Cardamom pods",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "cloves",
+   "name": "Clavo de comer",
+   "english": "Cloves",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "cloves",
+    "clavo"
+   ]
+  }
+ ]
+}
