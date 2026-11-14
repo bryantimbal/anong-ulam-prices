@@ -5,6 +5,10 @@ on:
     # 10:17 and 16:17 Philippine time (DA usually posts the day's report in the afternoon)
     - cron: "17 2,8 * * *"
   workflow_dispatch: {}
+  push:
+    # run right away when you edit manual prices
+    branches: [main]
+    paths: [manual-prices.json]
 
 permissions:
   contents: write
