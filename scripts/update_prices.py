@@ -11,7 +11,8 @@ Safety rules:
   * A converted price must stay within 0.35x-3x of the bundled estimate, and may not
     move more than 40% from the previous feed in one run. Otherwise the previous
     value is kept.
-  * If nothing can be downloaded or parsed, prices.json is left untouched.
+  * If DA can't be downloaded or parsed, the last DA prices are kept.
+  * manual-prices.json lets the owner change any non-DA price without an app update.
 """
 from __future__ import annotations
 
@@ -28,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "prices.json"
 ESTIMATES = ROOT / "estimates.json"
+MANUAL = ROOT / "manual-prices.json"
 DA_INDEX = "https://www.da.gov.ph/price-monitoring/"
 UA = "AnongUlamPriceFeed/1.0"
 MONTHS = {m: i for i, m in enumerate(
@@ -263,21 +265,69 @@ def round_to(v: float, step: float) -> float:
     return int(r) if r == int(r) and step >= 1 else r
 
 
+def load_manual(estimates: dict, notes: list, prev_manual: dict[str, float]) -> dict[str, float]:
+    """Reads manual-prices.json: {"prices": {"soy_sauce": {"price": 0.10, ...}, ...}}.
+
+    Only entries whose price differs from the app's bundled estimate are used.
+    A bad entry keeps its last good manual price; a broken file keeps all of them.
+    """
+    if not MANUAL.exists():
+        return {}
+    try:
+        data = json.loads(MANUAL.read_text())
+    except Exception as e:
+        notes.append(f"manual-prices.json is not valid JSON, kept the last manual prices: {e}")
+        return dict(prev_manual)
+    out = {}
+    for app_id, entry in (data.get("prices") or {}).items():
+        price = entry.get("price") if isinstance(entry, dict) else entry
+        est = estimates.get(app_id)
+        if est is None:
+            notes.append(f"manual: unknown id {app_id!r}, skipped")
+            continue
+        if not isinstance(price, (int, float)) or isinstance(price, bool) or price < 0:
+            notes.append(f"manual: {app_id} has an invalid price {price!r}, skipped")
+            if app_id in prev_manual:
+                out[app_id] = prev_manual[app_id]
+            continue
+        if app_id in MAP:
+            notes.append(f"manual: {app_id} comes from DA, manual price ignored")
+            continue
+        base = est["price"]
+        if base > 0 and not (0.2 * base <= price <= 5 * base):
+            notes.append(f"manual: {app_id} = {price} is far from the estimate {base} "
+                         f"(per {est['unit']}), skipped. Check the unit")
+            if app_id in prev_manual:
+                out[app_id] = prev_manual[app_id]
+            continue
+        if price != base:
+            out[app_id] = price
+    return out
+
+
 def main() -> int:
     estimates = {i["id"]: i for i in json.loads(ESTIMATES.read_text())["items"]}
-    previous = {}
+    previous, old = {}, {}
     if OUT.exists():
         try:
-            previous = {i["id"]: i for i in json.loads(OUT.read_text())["items"]}
+            old = json.loads(OUT.read_text())
+            previous = {i["id"]: i for i in old["items"]}
         except Exception as e:  # corrupt file: start over from estimates
             log("previous prices.json unreadable:", e)
+
+    def row(app_id, price):
+        est = estimates[app_id]
+        return {k: est[k] for k in ("id", "name", "english", "section", "unit")} | {"price": price}
+
+    notes: list[str] = []
+    da_items, updated, report = None, old.get("updated", ""), old.get("report", "")
 
     local = sys.argv[1:]  # optional: test with local PDF files instead of downloading
     try:
         reports = [(dt.date.today(), p) for p in local] if local else latest_da_reports()
     except Exception as e:
-        log("DA index unavailable, keeping current prices:", e)
-        return 0
+        log("DA index unavailable:", e)
+        reports = []
 
     when, rows, used = "", {}, None
     with tempfile.TemporaryDirectory() as tmp:
@@ -294,58 +344,63 @@ def main() -> int:
                 log("too few prices in", url)
             except Exception as e:
                 log("failed", url, e)
-    if not used:
-        log("no usable DA report, keeping current prices")
+
+    if used:
+        da_items = []
+        for app_id, (section, name, spec, factor, step) in MAP.items():
+            est = estimates.get(app_id)
+            if not est:
+                continue
+            raw = find(rows, section, name, spec)
+            prev = previous.get(app_id)
+            value = None
+            if raw is not None:
+                value = round_to(raw * factor, step)
+                base = est["price"]
+                if not (0.35 * base <= value <= 3 * base):
+                    notes.append(f"{app_id}: {value} outside range of estimate {base}, skipped")
+                    value = None
+                elif prev and abs(value - prev["price"]) > 0.4 * prev["price"]:
+                    notes.append(f"{app_id}: jump {prev['price']} -> {value}, kept previous")
+                    value = None
+            else:
+                notes.append(f"{app_id}: not in report")
+            if value is None and prev:
+                value = prev["price"]  # keep last good DA value
+            if value is not None:
+                da_items.append(row(app_id, value))
+        try:  # prefer the date printed in the report itself
+            report_date = dt.datetime.strptime(when, "%B %d, %Y").date()
+        except ValueError:
+            report_date = used[0]
+        updated, report = report_date.strftime("%b %-d, %Y"), used[1]
+    else:
+        log("no usable DA report, keeping the last DA prices")
+        da_items = [i for i in previous.values() if i["id"] in MAP]
+
+    prev_manual = {k: previous[k]["price"] for k in old.get("manual", []) if k in previous}
+    manual = load_manual(estimates, notes, prev_manual)
+    items = da_items + [row(k, v) for k, v in manual.items()]
+    for n in notes:
+        # "::warning::" shows the message on the run's summary page in GitHub Actions
+        log(("::warning::" if n.startswith("manual") else "") + n)
+    if not items:
+        log("nothing to publish")
         return 0
 
-    items, notes = [], []
-    for app_id, (section, name, spec, factor, step) in MAP.items():
-        est = estimates.get(app_id)
-        if not est:
-            continue
-        raw = find(rows, section, name, spec)
-        prev = previous.get(app_id)
-        value = None
-        if raw is not None:
-            value = round_to(raw * factor, step)
-            base = est["price"]
-            if not (0.35 * base <= value <= 3 * base):
-                notes.append(f"{app_id}: {value} outside range of estimate {base}, skipped")
-                value = None
-            elif prev and abs(value - prev["price"]) > 0.4 * prev["price"]:
-                notes.append(f"{app_id}: jump {prev['price']} -> {value}, kept previous")
-                value = None
-        else:
-            notes.append(f"{app_id}: not in report")
-        if value is None and prev:
-            value = prev["price"]  # keep last good DA value
-        if value is None:
-            continue  # app falls back to its bundled estimate
-        items.append({k: est[k] for k in ("id", "name", "english", "section", "unit")} | {"price": value})
-
-    for n in notes:
-        log(n)
-    try:  # prefer the date printed in the report itself
-        report_date = dt.datetime.strptime(when, "%B %d, %Y").date()
-    except ValueError:
-        report_date = used[0]
-    if previous and OUT.exists():
-        try:
-            old = json.loads(OUT.read_text())
-            if old.get("report") == used[1] and [i["price"] for i in old["items"]] == [i["price"] for i in items]:
-                log("no change since last run")
-                return 0
-        except Exception:
-            pass
     feed = {
-        "updated": report_date.strftime("%b %-d, %Y"),
+        "updated": updated or dt.date.today().strftime("%b %-d, %Y"),
         "source": "DA Price Monitoring (NCR)",
         "currency": "PHP",
-        "report": used[1],
+        "report": report,
+        "manual": sorted(manual),
         "items": items,
     }
+    if old and {k: v for k, v in old.items()} == feed:
+        log("no change since last run")
+        return 0
     OUT.write_text(json.dumps(feed, ensure_ascii=False, indent=1) + "\n")
-    log(f"wrote {len(items)} prices from {used[1]} ({when})")
+    log(f"wrote {len(da_items)} DA prices ({report or 'previous'}) and {len(manual)} manual prices")
     return 0
 
 
