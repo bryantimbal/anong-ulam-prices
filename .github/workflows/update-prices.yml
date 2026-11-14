@@ -4,6 +4,9 @@ on:
   schedule:
     # 10:17 and 16:17 Philippine time (DA usually posts the day's report in the afternoon)
     - cron: "17 2,8 * * *"
+
+    # every hour from 9:17 AM to 10:17 PM Philippine time; runs with no new DA report change nothing
+    - cron: "17 1-14 * * *"
   workflow_dispatch: {}
   push:
     # run right away when you edit manual prices
