@@ -188,6 +188,18 @@
   "chili_powder": {"price": 25, "per": "pack", "item": "Chili powder"},
   "cinnamon": {"price": 25, "per": "pack", "item": "Cinnamon"},
   "cardamom": {"price": 60, "per": "pack", "item": "Cardamom pods"},
-  "cloves": {"price": 25, "per": "pack", "item": "Cloves"}
+  "cloves": {"price": 25, "per": "pack", "item": "Cloves"},
+  "bayabas": {"price": 10, "per": "pc", "item": "Guava (for sinigang)"},
+  "labong": {"price": 90, "per": "kg", "item": "Bamboo shoots"},
+  "ubod": {"price": 150, "per": "kg", "item": "Heart of palm"},
+  "tinapa": {"price": 60, "per": "pack", "item": "Smoked fish"},
+  "corned_beef": {"price": 48, "per": "can", "item": "Canned corned beef"},
+  "sampalok_leaves": {"price": 20, "per": "bundle", "item": "Young tamarind leaves"},
+  "goat": {"price": 480, "per": "kg", "item": "Goat meat"},
+  "bihon": {"price": 30, "per": "pack", "item": "Rice vermicelli (bihon)"},
+  "pancit_canton": {"price": 55, "per": "pack", "item": "Canton egg noodles"},
+  "palabok_mix": {"price": 25, "per": "pack", "item": "Palabok sauce mix"},
+  "kamias": {"price": 25, "per": "pack", "item": "Kamias (bilimbi)"},
+  "papait": {"price": 20, "per": "pack", "item": "Beef bile"}
  }
 }

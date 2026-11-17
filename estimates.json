@@ -1,6 +1,6 @@
 {
- "updated": "Nob 2026 (tantiya)",
- "source": "Tantiyang presyo sa NCR palengke",
+ "updated": "Nob 13, 2026",
+ "source": "DA Price Monitoring (NCR)",
  "currency": "PHP",
  "items": [
   {
@@ -9,7 +9,7 @@
    "english": "Chicken",
    "section": "meat",
    "unit": "kg",
-   "price": 210,
+   "price": 203,
    "aliases": [
     "manok",
     "chicken",
@@ -23,7 +23,7 @@
    "english": "Pork shoulder",
    "section": "meat",
    "unit": "kg",
-   "price": 340,
+   "price": 311,
    "aliases": [
     "kasim",
     "baboy",
@@ -36,7 +36,7 @@
    "english": "Pork belly",
    "section": "meat",
    "unit": "kg",
-   "price": 380,
+   "price": 368,
    "aliases": [
     "liempo",
     "pork belly",
@@ -49,7 +49,7 @@
    "english": "Pork spareribs",
    "section": "meat",
    "unit": "kg",
-   "price": 330,
+   "price": 303,
    "aliases": [
     "buto-buto",
     "ribs",
@@ -63,7 +63,7 @@
    "english": "Beef sirloin",
    "section": "meat",
    "unit": "kg",
-   "price": 480,
+   "price": 504,
    "aliases": [
     "baka",
     "beef"
@@ -75,7 +75,7 @@
    "english": "Round scad",
    "section": "seafood",
    "unit": "kg",
-   "price": 240,
+   "price": 306,
    "aliases": [
     "gg",
     "isda",
@@ -88,7 +88,7 @@
    "english": "Shrimp",
    "section": "seafood",
    "unit": "kg",
-   "price": 480,
+   "price": 483,
    "aliases": [
     "hipon",
     "shrimp"
@@ -100,7 +100,7 @@
    "english": "Garlic",
    "section": "produce",
    "unit": "head",
-   "price": 10,
+   "price": 6.0,
    "aliases": [
     "bawang",
     "garlic"
@@ -112,7 +112,7 @@
    "english": "Onion",
    "section": "produce",
    "unit": "pc",
-   "price": 12,
+   "price": 9.0,
    "aliases": [
     "sibuyas",
     "onion"
@@ -124,7 +124,7 @@
    "english": "Tomato",
    "section": "produce",
    "unit": "pc",
-   "price": 6,
+   "price": 7.5,
    "aliases": [
     "kamatis",
     "tomato"
@@ -136,7 +136,7 @@
    "english": "Ginger",
    "section": "produce",
    "unit": "pc",
-   "price": 6,
+   "price": 6.0,
    "aliases": [
     "luya",
     "ginger"
@@ -148,7 +148,7 @@
    "english": "Eggplant",
    "section": "produce",
    "unit": "pc",
-   "price": 15,
+   "price": 16,
    "aliases": [
     "talong",
     "eggplant"
@@ -160,7 +160,7 @@
    "english": "Okra",
    "section": "produce",
    "unit": "pc",
-   "price": 3,
+   "price": 3.0,
    "aliases": [
     "okra"
    ]
@@ -171,7 +171,7 @@
    "english": "Bitter gourd",
    "section": "produce",
    "unit": "pc",
-   "price": 30,
+   "price": 25,
    "aliases": [
     "ampalaya",
     "bitter gourd",
@@ -184,7 +184,7 @@
    "english": "Squash",
    "section": "produce",
    "unit": "kg",
-   "price": 60,
+   "price": 61,
    "aliases": [
     "kalabasa",
     "squash"
@@ -196,7 +196,7 @@
    "english": "String beans",
    "section": "produce",
    "unit": "bundle",
-   "price": 25,
+   "price": 32,
    "aliases": [
     "sitaw",
     "string beans"
@@ -219,7 +219,7 @@
    "english": "Radish",
    "section": "produce",
    "unit": "pc",
-   "price": 25,
+   "price": 34,
    "aliases": [
     "labanos",
     "radish"
@@ -256,7 +256,7 @@
    "english": "Long green chili",
    "section": "produce",
    "unit": "pc",
-   "price": 3,
+   "price": 2.0,
    "aliases": [
     "sili",
     "siling pangsigang",
@@ -269,7 +269,7 @@
    "english": "Potato",
    "section": "produce",
    "unit": "kg",
-   "price": 90,
+   "price": 170,
    "aliases": [
     "patatas",
     "potato"
@@ -281,7 +281,7 @@
    "english": "Carrot",
    "section": "produce",
    "unit": "kg",
-   "price": 100,
+   "price": 153,
    "aliases": [
     "karot",
     "carrot"
@@ -293,7 +293,7 @@
    "english": "Bell pepper",
    "section": "produce",
    "unit": "pc",
-   "price": 20,
+   "price": 46,
    "aliases": [
     "bell pepper",
     "siling pula"
@@ -305,7 +305,7 @@
    "english": "Mung beans",
    "section": "produce",
    "unit": "kg",
-   "price": 140,
+   "price": 147,
    "aliases": [
     "monggo",
     "munggo",
@@ -318,7 +318,7 @@
    "english": "Calamansi",
    "section": "produce",
    "unit": "pc",
-   "price": 2.5,
+   "price": 1.75,
    "aliases": [
     "kalamansi",
     "calamansi"
@@ -330,7 +330,7 @@
    "english": "Egg",
    "section": "pantry",
    "unit": "pc",
-   "price": 9,
+   "price": 8.25,
    "aliases": [
     "itlog",
     "egg"
@@ -455,7 +455,7 @@
    "english": "Cooking oil",
    "section": "pantry",
    "unit": "ml",
-   "price": 0.11,
+   "price": 0.103,
    "staple": true,
    "aliases": [
     "mantika",
@@ -481,7 +481,7 @@
    "english": "Salt",
    "section": "pantry",
    "unit": "g",
-   "price": 0.03,
+   "price": 0.044,
    "staple": true,
    "aliases": [
     "asin",
@@ -494,7 +494,7 @@
    "english": "Sugar",
    "section": "pantry",
    "unit": "g",
-   "price": 0.08,
+   "price": 0.082,
    "staple": true,
    "aliases": [
     "asukal",
@@ -546,7 +546,7 @@
    "english": "Pork liver",
    "section": "meat",
    "unit": "kg",
-   "price": 220,
+   "price": 253,
    "aliases": [
     "atay",
     "liver"
@@ -583,7 +583,7 @@
    "english": "Rice",
    "section": "pantry",
    "unit": "kg",
-   "price": 55,
+   "price": 49,
    "aliases": [
     "bigas",
     "rice"
@@ -608,7 +608,7 @@
    "english": "Bok choy",
    "section": "produce",
    "unit": "bundle",
-   "price": 20,
+   "price": 25,
    "aliases": [
     "pechay",
     "petsay",
@@ -621,7 +621,7 @@
    "english": "Brown sugar",
    "section": "pantry",
    "unit": "g",
-   "price": 0.09,
+   "price": 0.072,
    "aliases": [
     "asukal na pula",
     "brown sugar",
@@ -709,7 +709,7 @@
    "english": "Pork chop",
    "section": "meat",
    "unit": "kg",
-   "price": 340,
+   "price": 311,
    "aliases": [
     "pork chop",
     "baboy"
@@ -721,7 +721,7 @@
    "english": "Pork hock",
    "section": "meat",
    "unit": "kg",
-   "price": 300,
+   "price": 280,
    "aliases": [
     "pata",
     "pork leg"
@@ -768,7 +768,7 @@
    "english": "Chicken breast",
    "section": "meat",
    "unit": "kg",
-   "price": 250,
+   "price": 219,
    "aliases": [
     "pechu",
     "breast",
@@ -781,7 +781,7 @@
    "english": "Chicken wings",
    "section": "meat",
    "unit": "kg",
-   "price": 230,
+   "price": 222,
    "aliases": [
     "pakpak",
     "wings"
@@ -793,7 +793,7 @@
    "english": "Chicken liver",
    "section": "meat",
    "unit": "kg",
-   "price": 180,
+   "price": 233,
    "aliases": [
     "atay ng manok",
     "liver"
@@ -805,7 +805,7 @@
    "english": "Beef brisket",
    "section": "meat",
    "unit": "kg",
-   "price": 450,
+   "price": 447,
    "aliases": [
     "brisket",
     "baka"
@@ -830,7 +830,7 @@
    "english": "Beef short ribs",
    "section": "meat",
    "unit": "kg",
-   "price": 420,
+   "price": 425,
    "aliases": [
     "tadyang",
     "short ribs"
@@ -842,7 +842,7 @@
    "english": "Beef tripe",
    "section": "meat",
    "unit": "kg",
-   "price": 300,
+   "price": 297,
    "aliases": [
     "tuwalya",
     "tripe"
@@ -854,7 +854,7 @@
    "english": "Pork face and ears",
    "section": "meat",
    "unit": "kg",
-   "price": 220,
+   "price": 261,
    "aliases": [
     "maskara",
     "tenga",
@@ -867,7 +867,7 @@
    "english": "Pork innards",
    "section": "meat",
    "unit": "kg",
-   "price": 200,
+   "price": 185,
    "aliases": [
     "lamang loob",
     "innards",
@@ -936,7 +936,7 @@
    "english": "Whole pork belly slab",
    "section": "meat",
    "unit": "kg",
-   "price": 380,
+   "price": 368,
    "aliases": [
     "lechon",
     "belly slab"
@@ -948,7 +948,7 @@
    "english": "Tilapia",
    "section": "seafood",
    "unit": "kg",
-   "price": 140,
+   "price": 157,
    "aliases": [
     "tilapia",
     "isda"
@@ -960,7 +960,7 @@
    "english": "Milkfish",
    "section": "seafood",
    "unit": "kg",
-   "price": 220,
+   "price": 244,
    "aliases": [
     "bangus",
     "milkfish"
@@ -972,7 +972,7 @@
    "english": "Fresh tuna",
    "section": "seafood",
    "unit": "kg",
-   "price": 350,
+   "price": 288,
    "aliases": [
     "tuna",
     "panga"
@@ -1008,7 +1008,7 @@
    "english": "Squid",
    "section": "seafood",
    "unit": "kg",
-   "price": 380,
+   "price": 497,
    "aliases": [
     "pusit",
     "squid"
@@ -1102,7 +1102,7 @@
    "english": "Sardinella",
    "section": "seafood",
    "unit": "kg",
-   "price": 160,
+   "price": 230,
    "aliases": [
     "tamban"
    ]
@@ -1193,7 +1193,7 @@
    "english": "Cabbage",
    "section": "produce",
    "unit": "kg",
-   "price": 80,
+   "price": 148,
    "aliases": [
     "repolyo",
     "cabbage"
@@ -1217,7 +1217,7 @@
    "english": "Bottle gourd",
    "section": "produce",
    "unit": "pc",
-   "price": 40,
+   "price": 43,
    "aliases": [
     "upo"
    ]
@@ -1228,7 +1228,7 @@
    "english": "Sponge gourd",
    "section": "produce",
    "unit": "pc",
-   "price": 30,
+   "price": 29,
    "aliases": [
     "patola"
    ]
@@ -1239,7 +1239,7 @@
    "english": "Green beans",
    "section": "produce",
    "unit": "kg",
-   "price": 120,
+   "price": 121,
    "aliases": [
     "baguio beans",
     "green beans"
@@ -1262,7 +1262,7 @@
    "english": "Broccoli",
    "section": "produce",
    "unit": "kg",
-   "price": 180,
+   "price": 240,
    "aliases": [
     "broccoli"
    ]
@@ -1273,7 +1273,7 @@
    "english": "Cauliflower",
    "section": "produce",
    "unit": "kg",
-   "price": 160,
+   "price": 281,
    "aliases": [
     "cauliflower"
    ]
@@ -1333,7 +1333,7 @@
    "english": "Saba banana",
    "section": "produce",
    "unit": "pc",
-   "price": 7,
+   "price": 8.0,
    "aliases": [
     "saba",
     "banana"
@@ -1381,7 +1381,7 @@
    "english": "Cucumber",
    "section": "produce",
    "unit": "pc",
-   "price": 15,
+   "price": 25,
    "aliases": [
     "pipino",
     "cucumber"
@@ -1393,7 +1393,7 @@
    "english": "Lettuce",
    "section": "produce",
    "unit": "bundle",
-   "price": 40,
+   "price": 38,
    "aliases": [
     "letsugas",
     "lettuce"
@@ -1417,7 +1417,7 @@
    "english": "Sweet potato",
    "section": "produce",
    "unit": "kg",
-   "price": 70,
+   "price": 93,
    "aliases": [
     "kamote",
     "sweet potato"
@@ -1748,7 +1748,7 @@
    "english": "Glutinous rice",
    "section": "pantry",
    "unit": "kg",
-   "price": 80,
+   "price": 79,
    "aliases": [
     "malagkit",
     "glutinous rice"
@@ -2284,7 +2284,7 @@
    "english": "Orange",
    "section": "produce",
    "unit": "pc",
-   "price": 30,
+   "price": 29,
    "aliases": [
     "orange",
     "dalandan"
@@ -2296,7 +2296,7 @@
    "english": "Lemon",
    "section": "produce",
    "unit": "pc",
-   "price": 25,
+   "price": 19,
    "aliases": [
     "lemon"
    ]
@@ -2729,7 +2729,7 @@
    "english": "Fish fillet (cream dory/basa)",
    "section": "seafood",
    "unit": "kg",
-   "price": 220,
+   "price": 154,
    "aliases": [
     "cream dory",
     "fish fillet",
@@ -2802,7 +2802,7 @@
    "english": "Basmati rice",
    "section": "pantry",
    "unit": "kg",
-   "price": 280,
+   "price": 194,
    "aliases": [
     "basmati"
    ]
@@ -2944,6 +2944,179 @@
    "aliases": [
     "cloves",
     "clavo"
+   ]
+  },
+  {
+   "id": "bayabas",
+   "name": "Bayabas",
+   "english": "Guava (for sinigang)",
+   "section": "produce",
+   "unit": "pc",
+   "price": 10,
+   "aliases": [
+    "guava"
+   ]
+  },
+  {
+   "id": "labong",
+   "name": "Labong",
+   "english": "Bamboo shoots",
+   "section": "produce",
+   "unit": "kg",
+   "price": 90,
+   "aliases": [
+    "bamboo shoot"
+   ]
+  },
+  {
+   "id": "ubod",
+   "name": "Ubod",
+   "english": "Heart of palm",
+   "section": "produce",
+   "unit": "kg",
+   "price": 150,
+   "aliases": [
+    "heart of palm",
+    "ubod ng niyog"
+   ]
+  },
+  {
+   "id": "tinapa",
+   "name": "Tinapa",
+   "english": "Smoked fish",
+   "section": "seafood",
+   "unit": "pack",
+   "price": 60,
+   "aliases": [
+    "tinapang galunggong",
+    "smoked fish"
+   ]
+  },
+  {
+   "id": "corned_beef",
+   "name": "Corned beef",
+   "english": "Canned corned beef",
+   "section": "pantry",
+   "unit": "can",
+   "price": 48,
+   "aliases": [
+    "delata"
+   ]
+  },
+  {
+   "id": "pork_baga",
+   "name": "Baga at puso ng baboy",
+   "english": "Pork lungs and heart",
+   "section": "meat",
+   "unit": "kg",
+   "price": 185,
+   "aliases": [
+    "bopis",
+    "baga"
+   ]
+  },
+  {
+   "id": "sampalok_leaves",
+   "name": "Dahon ng sampalok",
+   "english": "Young tamarind leaves",
+   "section": "produce",
+   "unit": "bundle",
+   "price": 20,
+   "aliases": [
+    "sampalok leaves"
+   ]
+  },
+  {
+   "id": "green_papaya",
+   "name": "Hilaw na papaya",
+   "english": "Green papaya",
+   "section": "produce",
+   "unit": "kg",
+   "price": 57,
+   "aliases": [
+    "papaya"
+   ]
+  },
+  {
+   "id": "goat",
+   "name": "Karne ng kambing",
+   "english": "Goat meat",
+   "section": "meat",
+   "unit": "kg",
+   "price": 480,
+   "aliases": [
+    "kambing",
+    "chevon"
+   ]
+  },
+  {
+   "id": "bihon",
+   "name": "Bihon",
+   "english": "Rice vermicelli (bihon)",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 30,
+   "aliases": [
+    "pancit bihon",
+    "rice noodles"
+   ]
+  },
+  {
+   "id": "pancit_canton",
+   "name": "Pancit canton",
+   "english": "Canton egg noodles",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 55,
+   "aliases": [
+    "canton"
+   ]
+  },
+  {
+   "id": "palabok_mix",
+   "name": "Palabok mix",
+   "english": "Palabok sauce mix",
+   "section": "pantry",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "palabok"
+   ]
+  },
+  {
+   "id": "kamias",
+   "name": "Kamias",
+   "english": "Kamias (bilimbi)",
+   "section": "produce",
+   "unit": "pack",
+   "price": 25,
+   "aliases": [
+    "iba",
+    "bilimbi"
+   ]
+  },
+  {
+   "id": "papait",
+   "name": "Papait (apdo)",
+   "english": "Beef bile",
+   "section": "meat",
+   "unit": "pack",
+   "price": 20,
+   "aliases": [
+    "apdo",
+    "bile"
+   ]
+  },
+  {
+   "id": "chicken_gizzard",
+   "name": "Balunbalunan",
+   "english": "Chicken gizzard",
+   "section": "meat",
+   "unit": "kg",
+   "price": 190,
+   "aliases": [
+    "gizzard",
+    "balun-balunan"
    ]
   }
  ]

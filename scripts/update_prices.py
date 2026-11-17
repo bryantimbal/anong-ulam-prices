@@ -44,6 +44,7 @@ MAP: dict[str, tuple[str, str, str | None, float, float]] = {
     "chicken_breast":   ("CHICKEN", "Breast (Pecho), Unbranded", None, 1, 1),
     "chicken_wings":    ("CHICKEN", "Wings (Pakpak), Unbranded", None, 1, 1),
     "chicken_liver":    ("CHICKEN OFFALS", "Liver (Atay), Local", None, 1, 1),
+    "chicken_gizzard":  ("CHICKEN OFFALS", "Gizzard, Local", None, 1, 1),
     "pork_kasim":       ("PORK", "Picnic Shoulder (Kasim), Local", None, 1, 1),
     "pork_liempo":      ("PORK", "Belly (Liempo), Local", None, 1, 1),
     "lechon_belly":     ("PORK", "Belly (Liempo), Local", None, 1, 1),
@@ -53,6 +54,7 @@ MAP: dict[str, tuple[str, str, str | None, float, float]] = {
     "pork_liver":       ("PORK OFFALS", "Liver (Atay), Local", None, 1, 1),
     "pork_maskara":     ("PORK OFFALS", "Head Mask, Local", None, 1, 1),
     "pork_innards":     ("PORK OFFALS", "Small Intestine, Local", None, 1, 1),
+    "pork_baga":        ("PORK OFFALS", "Lungs, Local", None, 1, 1),
     "beef_sirloin":     ("BEEF", "Sirloin (Lomo), Local", None, 1, 1),
     "beef_brisket":     ("BEEF", "Brisket (Punta y Pecho), Local", None, 1, 1),
     "beef_ribs":        ("BEEF", "Short Ribs, Local", None, 1, 1),
@@ -68,6 +70,7 @@ MAP: dict[str, tuple[str, str, str | None, float, float]] = {
     "cream_dory":       ("FISHERIES AND SEAFOOD", "Cream Dory (Pangasius) Fillet", None, 1, 1),
     # vegetables: per kg, or converted with an average weight per piece/bundle
     "squash":           ("LOWLAND VEGETABLES", "Squash", None, 1, 1),
+    "green_papaya":     ("LOWLAND VEGETABLES", "Papaya (Green)", None, 1, 1),
     "ampalaya":         ("LOWLAND VEGETABLES", "Bitter Gourd (Ampalaya)", None, 1 / 4.5, 1),   # 4-5 pcs/kg
     "upo":              ("LOWLAND VEGETABLES", "Bottle Gourd (Upo)", None, 0.8, 1),          # ~800 g each
     "siling_haba":      ("LOWLAND VEGETABLES", "Chilli (Green), Local", None, 0.015, 0.5),   # ~15 g each
@@ -136,6 +139,9 @@ def date_from_name(url: str) -> dt.date | None:
 def latest_da_reports(limit=5) -> list[tuple[dt.date, str]]:
     html = get(DA_INDEX).decode("utf-8", "replace")
     links = set(re.findall(r'https://www\.da\.gov\.ph/wp-content/uploads/[^"\'\s<>]+\.pdf', html))
+    # DA sometimes publishes a link with the site address written twice
+    # (".../uploads/2026/11/https://www.da.gov.ph/wp-content/..."); keep the last full address.
+    links = {u[u.rfind("https://"):] for u in links}
     daily = []
     for u in links:
         n = u.lower()
