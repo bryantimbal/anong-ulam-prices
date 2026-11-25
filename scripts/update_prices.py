@@ -375,10 +375,17 @@ def main() -> int:
                 value = prev["price"]  # keep last good DA value
             if value is not None:
                 da_items.append(row(app_id, value))
-        try:  # prefer the date printed in the report itself
-            report_date = dt.datetime.strptime(when, "%B %d, %Y").date()
+        # The date in the file name is the most reliable: DA sometimes forgets to update the date
+        # printed inside the report (e.g. the Nov 25, 2026 report says "Wednesday, November 13").
+        # The printed date is used only when the file name has no date (local test files).
+        try:
+            printed = dt.datetime.strptime(when, "%B %d, %Y").date()
         except ValueError:
-            report_date = used[0]
+            printed = None
+        named = date_from_name(used[1])
+        report_date = named or printed or used[0]
+        if named and printed and named != printed:
+            log(f"::warning::report says {printed} but the file is dated {named}; using {named}")
         updated, report = report_date.strftime("%b %-d, %Y"), used[1]
     else:
         log("no usable DA report, keeping the last DA prices")
