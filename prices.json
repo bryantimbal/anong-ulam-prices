@@ -1,8 +1,8 @@
 {
- "updated": "Nov 26, 2026",
+ "updated": "Nov 27, 2026",
  "source": "DA Price Monitoring (NCR)",
  "currency": "PHP",
- "report": "https://www.da.gov.ph/wp-content/uploads/2026/11/November-26-2026-DPI-AFC-1.pdf",
+ "report": "https://www.da.gov.ph/wp-content/uploads/2026/11/Daily-Price-Index-November-27-2026.pdf",
  "manual": [],
  "items": [
   {
@@ -11,7 +11,7 @@
    "english": "Chicken",
    "section": "meat",
    "unit": "kg",
-   "price": 200
+   "price": 201
   },
   {
    "id": "chicken_breast",
@@ -19,7 +19,7 @@
    "english": "Chicken breast",
    "section": "meat",
    "unit": "kg",
-   "price": 217
+   "price": 219
   },
   {
    "id": "chicken_wings",
@@ -27,7 +27,7 @@
    "english": "Chicken wings",
    "section": "meat",
    "unit": "kg",
-   "price": 221
+   "price": 223
   },
   {
    "id": "chicken_liver",
@@ -43,7 +43,7 @@
    "english": "Chicken gizzard",
    "section": "meat",
    "unit": "kg",
-   "price": 189
+   "price": 187
   },
   {
    "id": "pork_kasim",
@@ -51,7 +51,7 @@
    "english": "Pork shoulder",
    "section": "meat",
    "unit": "kg",
-   "price": 312
+   "price": 313
   },
   {
    "id": "pork_liempo",
@@ -59,7 +59,7 @@
    "english": "Pork belly",
    "section": "meat",
    "unit": "kg",
-   "price": 368
+   "price": 370
   },
   {
    "id": "lechon_belly",
@@ -67,7 +67,7 @@
    "english": "Whole pork belly slab",
    "section": "meat",
    "unit": "kg",
-   "price": 368
+   "price": 370
   },
   {
    "id": "pork_ribs",
@@ -75,7 +75,7 @@
    "english": "Pork spareribs",
    "section": "meat",
    "unit": "kg",
-   "price": 300
+   "price": 307
   },
   {
    "id": "pork_chop",
@@ -83,7 +83,7 @@
    "english": "Pork chop",
    "section": "meat",
    "unit": "kg",
-   "price": 312
+   "price": 313
   },
   {
    "id": "pork_pata",
@@ -91,7 +91,7 @@
    "english": "Pork hock",
    "section": "meat",
    "unit": "kg",
-   "price": 282
+   "price": 281
   },
   {
    "id": "pork_liver",
@@ -99,7 +99,7 @@
    "english": "Pork liver",
    "section": "meat",
    "unit": "kg",
-   "price": 258
+   "price": 253
   },
   {
    "id": "pork_maskara",
@@ -115,7 +115,7 @@
    "english": "Pork innards",
    "section": "meat",
    "unit": "kg",
-   "price": 173
+   "price": 176
   },
   {
    "id": "pork_baga",
@@ -123,7 +123,7 @@
    "english": "Pork lungs and heart",
    "section": "meat",
    "unit": "kg",
-   "price": 179
+   "price": 180
   },
   {
    "id": "beef_sirloin",
@@ -131,7 +131,7 @@
    "english": "Beef sirloin",
    "section": "meat",
    "unit": "kg",
-   "price": 508
+   "price": 503
   },
   {
    "id": "beef_brisket",
@@ -139,7 +139,7 @@
    "english": "Beef brisket",
    "section": "meat",
    "unit": "kg",
-   "price": 449
+   "price": 447
   },
   {
    "id": "beef_ribs",
@@ -147,7 +147,7 @@
    "english": "Beef short ribs",
    "section": "meat",
    "unit": "kg",
-   "price": 428
+   "price": 422
   },
   {
    "id": "beef_tripe",
@@ -155,7 +155,7 @@
    "english": "Beef tripe",
    "section": "meat",
    "unit": "kg",
-   "price": 298
+   "price": 297
   },
   {
    "id": "galunggong",
@@ -171,7 +171,7 @@
    "english": "Milkfish",
    "section": "seafood",
    "unit": "kg",
-   "price": 244
+   "price": 240
   },
   {
    "id": "tilapia",
@@ -187,7 +187,7 @@
    "english": "Fresh tuna",
    "section": "seafood",
    "unit": "kg",
-   "price": 289
+   "price": 288
   },
   {
    "id": "pusit",
@@ -195,7 +195,7 @@
    "english": "Squid",
    "section": "seafood",
    "unit": "kg",
-   "price": 494
+   "price": 497
   },
   {
    "id": "shrimp",
@@ -203,7 +203,7 @@
    "english": "Shrimp",
    "section": "seafood",
    "unit": "kg",
-   "price": 483
+   "price": 485
   },
   {
    "id": "tamban",
@@ -211,7 +211,7 @@
    "english": "Sardinella",
    "section": "seafood",
    "unit": "kg",
-   "price": 267
+   "price": 235
   },
   {
    "id": "cream_dory",
@@ -219,7 +219,7 @@
    "english": "Fish fillet (cream dory/basa)",
    "section": "seafood",
    "unit": "kg",
-   "price": 154
+   "price": 153
   },
   {
    "id": "squash",
@@ -243,7 +243,7 @@
    "english": "Bitter gourd",
    "section": "produce",
    "unit": "pc",
-   "price": 23
+   "price": 22
   },
   {
    "id": "upo",
@@ -267,7 +267,7 @@
    "english": "Eggplant",
    "section": "produce",
    "unit": "pc",
-   "price": 13
+   "price": 12
   },
   {
    "id": "pechay",
@@ -307,7 +307,7 @@
    "english": "Tomato",
    "section": "produce",
    "unit": "pc",
-   "price": 6.5
+   "price": 6.0
   },
   {
    "id": "cabbage",
@@ -315,7 +315,7 @@
    "english": "Cabbage",
    "section": "produce",
    "unit": "kg",
-   "price": 103
+   "price": 104
   },
   {
    "id": "carrot",
@@ -323,7 +323,7 @@
    "english": "Carrot",
    "section": "produce",
    "unit": "kg",
-   "price": 148
+   "price": 146
   },
   {
    "id": "broccoli",
@@ -331,7 +331,7 @@
    "english": "Broccoli",
    "section": "produce",
    "unit": "kg",
-   "price": 220
+   "price": 215
   },
   {
    "id": "cauliflower",
@@ -339,7 +339,7 @@
    "english": "Cauliflower",
    "section": "produce",
    "unit": "kg",
-   "price": 214
+   "price": 202
   },
   {
    "id": "sayote",
@@ -355,7 +355,7 @@
    "english": "Cucumber",
    "section": "produce",
    "unit": "pc",
-   "price": 25
+   "price": 24
   },
   {
    "id": "baguio_beans",
@@ -363,7 +363,7 @@
    "english": "Green beans",
    "section": "produce",
    "unit": "kg",
-   "price": 116
+   "price": 112
   },
   {
    "id": "lettuce",
@@ -371,7 +371,7 @@
    "english": "Lettuce",
    "section": "produce",
    "unit": "bundle",
-   "price": 38
+   "price": 34
   },
   {
    "id": "radish",
@@ -379,7 +379,7 @@
    "english": "Radish",
    "section": "produce",
    "unit": "pc",
-   "price": 26
+   "price": 25
   },
   {
    "id": "potato",
@@ -395,7 +395,7 @@
    "english": "Bell pepper",
    "section": "produce",
    "unit": "pc",
-   "price": 45
+   "price": 42
   },
   {
    "id": "garlic",
@@ -427,7 +427,7 @@
    "english": "Calamansi",
    "section": "produce",
    "unit": "pc",
-   "price": 1.75
+   "price": 2.0
   },
   {
    "id": "saba",
@@ -459,7 +459,7 @@
    "english": "Sweet potato",
    "section": "produce",
    "unit": "kg",
-   "price": 87
+   "price": 88
   },
   {
    "id": "rice",
@@ -475,7 +475,7 @@
    "english": "Glutinous rice",
    "section": "pantry",
    "unit": "kg",
-   "price": 74
+   "price": 80
   },
   {
    "id": "basmati",
@@ -507,7 +507,7 @@
    "english": "Sugar",
    "section": "pantry",
    "unit": "g",
-   "price": 0.081
+   "price": 0.082
   },
   {
    "id": "brown_sugar",
@@ -515,7 +515,7 @@
    "english": "Brown sugar",
    "section": "pantry",
    "unit": "g",
-   "price": 0.071
+   "price": 0.072
   },
   {
    "id": "salt",
@@ -531,7 +531,7 @@
    "english": "Cooking oil",
    "section": "pantry",
    "unit": "ml",
-   "price": 0.103
+   "price": 0.104
   }
  ]
 }
